@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Awsales & Ricardo Nunes — Proposta Comercial</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
+  :root{--brand:#0A7AFF;--brand-light:#3D9AFF;--dark:#07070D;--dark-2:#0E0E18;--cream:#FDFBF7;--cream-2:#FAF8F3;--ink:#111827;--ink-2:#1F2937;--ink-3:#374151;--ink-muted:#6B7280;--ink-light:#9CA3AF;--gold:#C9A84C;--gold-light:#D4B968;--white:#FFFFFF;--green:#00C48C;--green-bg:rgba(0,196,140,.06);--red:#FF3B5C;--border:#E5E7EB;--border-light:#F3F4F6;--radius:16px;--radius-sm:12px;--radius-xs:8px;--shadow-xs:0 1px 2px rgba(0,0,0,.04);--shadow-md:0 4px 16px rgba(0,0,0,.08)}
+  *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink-3);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  [contenteditable="true"]{outline:none;border-radius:4px;transition:box-shadow .2s,background .2s;cursor:text}[contenteditable="true"]:hover{box-shadow:0 0 0 2px rgba(10,122,255,.12)}[contenteditable="true"]:focus{box-shadow:0 0 0 2px var(--brand);background:rgba(10,122,255,.02)}
+  .hero{background:linear-gradient(160deg,#07070D 0%,#0E1028 40%,#0A0A1A 100%);color:var(--white);padding:72px 24px 64px;position:relative;overflow:hidden;min-height:90vh;display:flex;align-items:center;justify-content:center}.hero::before{content:'';position:absolute;top:-30%;right:-15%;width:700px;height:700px;background:radial-gradient(circle,rgba(10,122,255,.1) 0%,transparent 65%);pointer-events:none}.hero::after{content:'';position:absolute;bottom:-20%;left:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(0,196,140,.06) 0%,transparent 65%);pointer-events:none}.hero-inner{max-width:780px;width:100%;position:relative;z-index:1}.hero-confidential{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:40px;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:28px}.hero-confidential-dot{width:5px;height:5px;background:var(--gold);border-radius:50%;animation:pulse 2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}.hero-logo{font-size:18px;font-weight:700;letter-spacing:-.3px;color:rgba(255,255,255,.85);margin-bottom:48px}.hero-logo span{color:var(--brand)}.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,7vw,60px);font-weight:800;line-height:1.06;letter-spacing:-2px;margin-bottom:20px}.hero h1 em{font-style:italic;color:var(--gold-light)}.hero-sub{font-size:clamp(14px,2.2vw,17px);color:rgba(255,255,255,.42);max-width:540px;line-height:1.75}.hero-meta{margin-top:48px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;padding-top:28px;border-top:1px solid rgba(255,255,255,.07)}.hero-meta-item{display:flex;flex-direction:column;gap:4px}.hero-meta-label{font-size:10px;text-transform:uppercase;letter-spacing:1.8px;color:rgba(255,255,255,.25);font-weight:600}.hero-meta-value{font-size:13px;color:rgba(255,255,255,.7);font-weight:500}
+  .section{padding:80px 24px}.section-alt{background:var(--cream)}.inner{max-width:780px;margin:0 auto;position:relative;z-index:1}.section-tag{display:inline-flex;align-items:center;gap:10px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:var(--brand);margin-bottom:16px}.section-tag::before{content:'';width:24px;height:1px;background:currentColor}.section-tag.gold{color:var(--gold)}.section-tag.green{color:var(--green)}.section-tag.red{color:var(--red)}.section h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(26px,5.5vw,46px);font-weight:800;color:var(--ink);letter-spacing:-1.2px;line-height:1.12;margin-bottom:16px}.section h2 em{font-style:italic;color:var(--ink-2)}.section-desc{font-size:clamp(14px,1.8vw,16px);color:var(--ink-muted);max-width:560px;line-height:1.8;margin-bottom:48px}
+  .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.pillar{padding:32px 24px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);transition:box-shadow .25s,transform .25s}.pillar:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}.pillar-num{font-size:32px;font-weight:800;color:var(--brand);opacity:.3;font-family:'Playfair Display',serif;margin-bottom:16px}.pillar h3{font-size:16px;font-weight:700;color:var(--ink);margin-bottom:4px}.pillar .pillar-sub{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--ink-light);margin-bottom:12px}.pillar p{font-size:13.5px;color:var(--ink-muted);line-height:1.7}
+  .diagnostic-grid{display:grid;grid-template-columns:1fr;gap:12px}.diag-card{padding:20px 24px;background:var(--white);border-left:3px solid var(--red);border-radius:2px var(--radius-xs) var(--radius-xs) 2px;box-shadow:var(--shadow-xs)}.diag-title{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}.diag-desc{font-size:13.5px;color:var(--ink-muted);line-height:1.65}
+  .scope-list{display:grid;grid-template-columns:1fr;gap:16px;margin-top:8px}.scope-item{display:flex;gap:20px;padding:24px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm)}.scope-num{font-size:18px;font-weight:800;color:var(--brand);opacity:.5;flex-shrink:0;padding-top:2px}.scope-item h4{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}.scope-item p{font-size:13.5px;color:var(--ink-muted);line-height:1.65}
+  .tech-list{display:grid;grid-template-columns:1fr;gap:12px}.tech-item{display:flex;gap:16px;padding:20px 24px;background:var(--cream);border-radius:var(--radius-xs);align-items:flex-start}.tech-arrow{font-size:16px;color:var(--brand);font-weight:700;flex-shrink:0;padding-top:1px}.tech-item h4{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}.tech-item p{font-size:13.5px;color:var(--ink-muted);line-height:1.65}
+  .guarantee-section{padding:80px 24px;background:var(--cream)}.guarantee-wrap{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:60px}.guarantee-card{background:linear-gradient(165deg,#1A1A30 0%,#12121F 50%,#0D0D18 100%);border-radius:16px;padding:52px 48px;max-width:460px;width:100%;position:relative;overflow:hidden;flex-shrink:0}.guarantee-card::before{content:'';position:absolute;top:-30%;right:-20%;width:400px;height:400px;background:radial-gradient(circle,rgba(255,255,255,.03) 0%,transparent 60%);pointer-events:none}.guarantee-card .section-tag{color:var(--green);margin-bottom:20px;position:relative;z-index:1}.guarantee-card .section-tag::before{background:var(--green)}.guarantee-card h2{color:var(--white);position:relative;z-index:1;font-size:clamp(30px,4.5vw,44px);line-height:1.08;letter-spacing:-1.2px}.guarantee-card .g-desc{font-size:14.5px;color:rgba(255,255,255,.38);line-height:1.75;margin:18px 0 32px;position:relative;z-index:1}.g-items{display:flex;flex-direction:column;gap:10px;position:relative;z-index:1}.g-item{display:flex;gap:14px;padding:16px 18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:10px;align-items:flex-start}.g-item-icon{width:30px;height:30px;border-radius:50%;border:1.5px solid rgba(201,168,76,.45);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--gold)}.g-item-icon svg{width:13px;height:13px}.g-item h4{font-size:14px;font-weight:700;color:var(--white);margin-bottom:3px}.g-item p{font-size:13px;color:rgba(255,255,255,.35);line-height:1.55}.guarantee-shield{display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0}.shield-svg{width:200px;height:220px;margin-bottom:24px}.g-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:3px;color:var(--ink-muted);text-align:center}.g-val{font-family:'Playfair Display',Georgia,serif;font-size:17px;font-style:italic;color:var(--ink-2);text-align:center;margin-top:4px}
+  .pricing-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.pricing-card{padding:32px 28px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);transition:box-shadow .25s}.pricing-card:hover{box-shadow:var(--shadow-md)}.pricing-label{font-size:12px;font-weight:600;color:var(--ink-muted);margin-bottom:16px}.pricing-val{font-size:clamp(28px,5vw,38px);font-weight:800;color:var(--ink);font-family:'Playfair Display',serif;margin-bottom:4px}.pricing-val span{font-size:14px;font-weight:500;color:var(--ink-light)}.pricing-note{font-size:13px;color:var(--ink-muted);line-height:1.65;margin-top:12px}
+  .timeline{display:grid;grid-template-columns:1fr;gap:0}.tl-item{display:flex;gap:20px;padding:24px 0;border-bottom:1px solid var(--border)}.tl-item:last-child{border-bottom:none}.tl-badge{min-width:56px;height:56px;border-radius:var(--radius-sm);background:rgba(10,122,255,.05);color:var(--brand);display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;flex-shrink:0}.tl-badge strong{font-size:14px;letter-spacing:0}.tl-content h4{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}.tl-content .tl-phase{font-size:11px;font-weight:600;color:var(--brand);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}.tl-content p{font-size:13.5px;color:var(--ink-muted);line-height:1.6}
+  .stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:40px 0}.stat-card{text-align:center;padding:28px 16px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm)}.stat-val{font-size:42px;font-weight:800;color:var(--ink);font-family:'Playfair Display',serif;line-height:1}.stat-val span{color:var(--brand);font-size:22px}.stat-lbl{font-size:12px;color:var(--ink-muted);margin-top:8px}.client-tags-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--ink-light);margin-bottom:14px}.client-tags{display:flex;flex-wrap:wrap;gap:8px}.client-tag{padding:8px 18px;background:var(--cream);border:1px solid var(--border);border-radius:40px;font-size:13px;font-weight:500;color:var(--ink-2)}
+  .resp-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.resp-card{padding:28px 24px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--white)}.resp-card h3{font-size:16px;font-weight:700;color:var(--ink);margin-bottom:16px}.resp-line{font-size:14px;color:var(--ink-muted);line-height:1.65;padding:8px 0;border-bottom:1px solid var(--border-light)}.resp-line:last-child{border-bottom:none}
+  .steps-list{display:grid;grid-template-columns:1fr;gap:12px}.step-card{display:flex;gap:16px;padding:20px 24px;background:var(--cream);border:1px solid var(--border);border-radius:var(--radius-sm);align-items:flex-start}.step-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}.step-icon.blue{background:rgba(10,122,255,.08);color:var(--brand)}.step-icon.green{background:rgba(0,196,140,.08);color:var(--green)}.step-title{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:3px}.step-desc{font-size:13px;color:var(--ink-muted);line-height:1.6}.reminder{margin-top:28px;padding:18px 24px;background:var(--green-bg);border:1px solid rgba(0,196,140,.12);border-radius:var(--radius-xs);font-size:14px;color:var(--ink-muted);line-height:1.65}.reminder strong{color:var(--ink)}
+  .cta-section{padding:80px 24px;background:linear-gradient(160deg,#07070D 0%,#0E1028 40%,#0A0A1A 100%);color:var(--white);position:relative;overflow:hidden;text-align:center}.cta-section::before{content:'';position:absolute;top:-30%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(10,122,255,.08) 0%,transparent 65%);pointer-events:none}.cta-inner{max-width:600px;margin:0 auto;position:relative;z-index:1}.cta-pre{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:rgba(255,255,255,.3);margin-bottom:16px}.cta-section h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,5vw,40px);font-weight:800;color:var(--white);letter-spacing:-1px;line-height:1.12;margin-bottom:16px}.cta-section h2 em{font-style:italic;color:rgba(255,255,255,.6)}.cta-desc{font-size:15px;color:rgba(255,255,255,.4);line-height:1.7;margin-bottom:40px}.cta-contact{display:flex;flex-direction:column;align-items:center;gap:4px;margin-bottom:8px}.cta-name{font-size:17px;font-weight:700;color:var(--white)}.cta-role{font-size:13px;color:rgba(255,255,255,.4)}.cta-links{display:flex;justify-content:center;gap:24px;margin-top:16px}.cta-link{display:flex;flex-direction:column;align-items:center;gap:2px}.cta-link-val{font-size:13px;font-weight:600;color:var(--brand-light)}.cta-link-label{font-size:10px;color:rgba(255,255,255,.25);text-transform:uppercase;letter-spacing:1px}.footer{padding:24px;text-align:center;font-size:11px;color:rgba(255,255,255,.2);background:var(--dark);border-top:1px solid rgba(255,255,255,.04)}
+  @media(max-width:768px){.hero{padding:56px 20px 48px;min-height:auto}.hero h1{font-size:clamp(28px,9vw,42px)}.hero-meta{grid-template-columns:repeat(2,1fr);gap:16px}.pillars{grid-template-columns:1fr}.guarantee-wrap{flex-direction:column;gap:40px}.guarantee-card{max-width:100%;padding:40px 28px}.shield-svg{width:160px;height:176px}.pricing-grid{grid-template-columns:1fr}.stats-row{grid-template-columns:1fr}.resp-grid{grid-template-columns:1fr}.section{padding:56px 18px}.cta-links{flex-direction:column;gap:12px}}
+</style>
+</head>
+<body>
+
+<section class="hero"><div class="hero-inner">
+  <div class="hero-confidential"><div class="hero-confidential-dot"></div> Proposta Comercial Confidencial</div>
+  <div class="hero-logo">Aw<span>sales</span></div>
+  <h1 contenteditable="true">Autonomous Service Builder para o <em>Grupo R1.</em></h1>
+  <p class="hero-sub" contenteditable="true">ROI as a Service. Recuperamos a receita que está vazando no funil do Máquina de Vendas e do RGV — com garantia contratual de resultado.</p>
+  <div class="hero-meta">
+    <div class="hero-meta-item"><span class="hero-meta-label">Preparado para</span><span class="hero-meta-value" contenteditable="true">Jonathas Moreira e Diretoria</span></div>
+    <div class="hero-meta-item"><span class="hero-meta-label">Data</span><span class="hero-meta-value" contenteditable="true">15 de Abril, 2026</span></div>
+    <div class="hero-meta-item"><span class="hero-meta-label">Validade</span><span class="hero-meta-value" contenteditable="true">30 dias</span></div>
+    <div class="hero-meta-item"><span class="hero-meta-label">Responsável</span><span class="hero-meta-value" contenteditable="true">Arthur Betônico</span></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="inner">
+  <div class="section-tag gold">Tecnologia Proprietária</div>
+  <h2 contenteditable="true">Três pilares da plataforma <em>AURA.</em></h2>
+  <p class="section-desc" contenteditable="true">Enquanto soluções tradicionais exigem fluxos manuais e microgerenciamento, nossa tecnologia fecha o ciclo de autonomia completo.</p>
+  <div class="pillars">
+    <div class="pillar"><div class="pillar-num">01</div><h3 contenteditable="true">Agent Builder</h3><div class="pillar-sub">Construtor</div><p contenteditable="true">O sistema ingere landing pages, VSLs, histórico de conversas e playbooks do Grupo R1 para criar agentes especializados — como o "Aniquilador de Objeção" que gerou R$2M em 12 dias na G4.</p></div>
+    <div class="pillar"><div class="pillar-num">02</div><h3 contenteditable="true">Execution Engine</h3><div class="pillar-sub">Motor</div><p contenteditable="true">Integração nativa com Hubspot e Guru. O agente cria deals, registra atividades no CRM e executa ações transacionais — vai além da conversa.</p></div>
+    <div class="pillar"><div class="pillar-num">03</div><h3 contenteditable="true">Optimization Brain</h3><div class="pillar-sub">Cérebro · Maior Diferencial</div><p contenteditable="true">O agente aumenta seu conhecimento sobre o público-alvo ao longo do tempo, diminuindo o custo por conversa e maximizando a conversão. Dados federados de +200 clientes enterprise.</p></div>
+  </div>
+</div></section>
+
+<section class="section section-alt"><div class="inner">
+  <div class="section-tag red">Diagnóstico de Revenue Leakage</div>
+  <h2 contenteditable="true">Onde o Grupo R1 está <em>perdendo receita.</em></h2>
+  <p class="section-desc" contenteditable="true">Com base em nossa reunião, identificamos gargalos críticos no funil perpétuo que processa quase 2.000 vendas do Máquina de Vendas e alimenta o RGV de R$16.000.</p>
+  <div class="diagnostic-grid">
+    <div class="diag-card"><div class="diag-title" contenteditable="true">Recuperação manual com taxa de 2%</div><div class="diag-desc" contenteditable="true">Hoje existe apenas uma pessoa dedicada à recuperação de carrinho abandonado, operando de forma manual e sem automação. A taxa de 2% está muito abaixo do potencial — cada ponto percentual a mais representa receita direta no ticket de R$197 e no pipeline do RGV.</div></div>
+    <div class="diag-card"><div class="diag-title" contenteditable="true">Leads de landing page sem follow-up</div><div class="diag-desc" contenteditable="true">Leads que chegam na landing page do Máquina de Vendas mas não convertem ficam sem cadência de follow-up automatizada. Em operações similares (G4), essa frente sozinha gerou R$1M em vendas.</div></div>
+    <div class="diag-card"><div class="diag-title" contenteditable="true">Pix gerado e cartão recusado sem recuperação</div><div class="diag-desc" contenteditable="true">Boletos/pix gerados e transações com cartão recusado não são tratados de forma ativa. Na G4, essa frente gerou R$470k de faturamento com ROI de 90x.</div></div>
+    <div class="diag-card"><div class="diag-title" contenteditable="true">Volume de leads além da capacidade humana</div><div class="diag-desc" contenteditable="true">A equipe não consegue trabalhar com o volume atual de leads. Cada lead que sai do funil sem tratamento é receita perdida — tanto no ticket de R$197 quanto no pipeline de R$16.000 do RGV.</div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="inner">
+  <div class="section-tag">Escopo da Solução</div>
+  <h2 contenteditable="true">Recuperação de receita no funil <em>perpétuo.</em></h2>
+  <p class="section-desc" contenteditable="true">Piloto focado em ROI imediato nas duas frentes com maior potencial de geração de receita, integrado ao Hubspot e Guru.</p>
+  <div class="scope-list">
+    <div class="scope-item"><div class="scope-num">1.</div><div><h4 contenteditable="true">Recuperação de Carrinho Abandonado</h4><p contenteditable="true">Agente "Aniquilador de Objeção" atuando em carrinho abandonado, Pix gerado não pago e cartão recusado. O mesmo playbook que gerou R$2M em 12 dias para a G4 Educação — adaptado para o funil do Máquina de Vendas (R$197) e RGV (R$16.000).</p></div></div>
+    <div class="scope-item"><div class="scope-num">2.</div><div><h4 contenteditable="true">Recuperação de Leads de Landing Page</h4><p contenteditable="true">Leads que chegam na landing page mas não convertem recebem cadência inteligente de follow-up via WhatsApp, com quebra de objeções humanizada e direcionamento para o checkout da Guru.</p></div></div>
+    <div class="scope-item"><div class="scope-num">3.</div><div><h4 contenteditable="true">Reengajamento de Base</h4><p contenteditable="true">Ativação de leads de lançamentos anteriores e bases frias com comunicações diferenciadas — como ofertas exclusivas para o Máquina de Vendas — para reintroduzi-los no funil do RGV.</p></div></div>
+  </div>
+</div></section>
+
+<section class="section section-alt"><div class="inner">
+  <div class="section-tag">Entrega Técnica</div>
+  <h2 contenteditable="true">O que está incluso na <em>implantação.</em></h2>
+  <p class="section-desc" contenteditable="true">Cada etapa é conduzida pelo nosso time de engenharia e especialistas em IA, com um Account Manager dedicado.</p>
+  <div class="tech-list">
+    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Desenvolvimento do Seller Agent</h4><p contenteditable="true">Ingestão de landing pages, VSLs, histórico de conversas e playbooks de vendas do Grupo R1. Construção de playbooks proprietários de recuperação e quebra de objeções.</p></div></div>
+    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Infraestrutura</h4><p contenteditable="true">Configuração do ambiente Awsales, ativação de WhatsApp Business API e setup de dashboards de analytics com testes A/B.</p></div></div>
+    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Integrações</h4><p contenteditable="true">Conexão nativa com Hubspot (CRM — criação de deals e atividades) e Guru (checkout) para operação integrada e autônoma.</p></div></div>
+    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Validação</h4><p contenteditable="true">Testes de precisão, cenários de objeção e simulação de recuperação antes do Go-Live.</p></div></div>
+  </div>
+</div></section>
+
+<section class="guarantee-section"><div class="guarantee-wrap">
+  <div class="guarantee-card">
+    <div class="section-tag green">Risco Zero</div>
+    <h2>Money-Back<br>Guarantee.</h2>
+    <p class="g-desc" contenteditable="true">Se não superarmos a taxa de recuperação de 2% do time atual em 30 dias, você não paga nada.</p>
+    <div class="g-items">
+      <div class="g-item"><div class="g-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><div><h4 contenteditable="true">Teste A/B contra o time atual</h4><p contenteditable="true">Comparação direta com a performance da recuperação manual atual de 2%.</p></div></div>
+      <div class="g-item"><div class="g-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><div><h4 contenteditable="true">Escalabilidade por Resultado</h4><p contenteditable="true">Volume aumenta conforme ROI e conversão superiores forem validados nos dashboards.</p></div></div>
+      <div class="g-item"><div class="g-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><div><h4 contenteditable="true">Sem multa, sem lock-in</h4><p contenteditable="true">Contrato simples, sem multa rescisória. Foco na parceria de longo prazo através da entrega de resultados.</p></div></div>
+    </div>
+  </div>
+  <div class="guarantee-shield">
+    <svg class="shield-svg" viewBox="0 0 200 230" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="100,12 175,48 175,155 100,195 25,155 25,48" fill="none" stroke="#C0B8A0" stroke-width=".7" opacity=".3"/><circle cx="24" cy="120" r="3" fill="#90A8C0" opacity=".5"/><circle cx="176" cy="100" r="3" fill="#90A8C0" opacity=".5"/><circle cx="100" cy="192" r="2.5" fill="#90A8C0" opacity=".35"/><path d="M100,38 C100,38 158,56 166,60 C166,118 157,162 100,190 C43,162 34,118 34,60 C42,56 100,38 100,38Z" fill="url(#s1rn)" stroke="#B8A870" stroke-width="1" opacity=".85"/><path d="M100,50 C100,50 148,65 155,68 C155,118 147,155 100,180 C53,155 45,118 45,68 C52,65 100,50 100,50Z" fill="url(#s2rn)" opacity=".4"/><ellipse cx="100" cy="108" rx="30" ry="34" fill="url(#s3rn)" opacity=".5"/><circle cx="100" cy="104" r="24" fill="#00C48C" opacity=".12"/><circle cx="100" cy="104" r="16" fill="#00C48C" opacity=".2"/><polyline points="91,104 97,111 111,96" fill="none" stroke="#00C48C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><defs><radialGradient id="s1rn" cx="50%" cy="35%" r="65%"><stop offset="0%" stop-color="#EDE8D4"/><stop offset="100%" stop-color="#C8C0A8"/></radialGradient><radialGradient id="s2rn" cx="50%" cy="38%" r="55%"><stop offset="0%" stop-color="#F5F0E0" stop-opacity=".6"/><stop offset="100%" stop-color="#D8D0BC" stop-opacity="0"/></radialGradient><radialGradient id="s3rn" cx="50%" cy="45%" r="50%"><stop offset="0%" stop-color="#E0DCC8" stop-opacity=".8"/><stop offset="100%" stop-color="#D0C8B0" stop-opacity="0"/></radialGradient></defs></svg>
+    <div class="g-label">GARANTIA CONTRATUAL</div>
+    <div class="g-val">30 dias · 100% reembolso</div>
+  </div>
+</div></section>
+
+<section class="section"><div class="inner">
+  <div class="section-tag">Investimento</div>
+  <h2 contenteditable="true">Modelo comercial <em>ROI as a Service.</em></h2>
+  <p class="section-desc" contenteditable="true">Vocês pagam pela capacidade produtiva do agente. Nosso faturamento cresce conforme escalamos o resultado de vocês.</p>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      <div class="pricing-label">Setup — Implantação</div>
+      <div class="pricing-val" contenteditable="true">R$ 10.500</div>
+      <div class="pricing-val"><span>pagamento único</span></div>
+      <p class="pricing-note" contenteditable="true">Alocação de um time de engenharia e especialistas em IA para construir os agentes de recuperação, integrar com Hubspot e Guru, e colocar em produção em 14 dias.</p>
+    </div>
+    <div class="pricing-card">
+      <div class="pricing-label">Operação Mensal</div>
+      <div class="pricing-val" contenteditable="true">R$ 2.500</div>
+      <div class="pricing-val"><span>por mês + variável por lead</span></div>
+      <p class="pricing-note" contenteditable="true">Inclui Account Manager dedicado, equipe de integração, manutenção e relatórios. Custo variável entre R$ 1,50 e R$ 5,00 por lead tratado (tokens + disparos Meta + memória da IA).</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="section section-alt"><div class="inner">
+  <div class="section-tag">Cronograma</div>
+  <h2 contenteditable="true">14 dias para <em>Go-Live.</em></h2>
+  <p class="section-desc" contenteditable="true">Implementação acelerada para começar a recuperar receita o mais rápido possível.</p>
+  <div class="timeline">
+    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>1</strong></div><div class="tl-content"><div class="tl-phase">Dias 1 a 3</div><h4 contenteditable="true">Onboarding e Coleta</h4><p contenteditable="true">Coleta de landing pages, VSLs, playbooks de vendas, histórico de conversas e acessos ao Hubspot e Guru.</p></div></div>
+    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>2</strong></div><div class="tl-content"><div class="tl-phase">Dias 4 a 8</div><h4 contenteditable="true">Construção dos Agentes</h4><p contenteditable="true">Desenvolvimento do Aniquilador de Objeção, agente de LP Recovery e reengajamento de base.</p></div></div>
+    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>3</strong></div><div class="tl-content"><div class="tl-phase">Dias 9 a 12</div><h4 contenteditable="true">Integrações e Testes</h4><p contenteditable="true">Integração com Hubspot e Guru, validação de cenários de objeção e teste A/B contra time atual.</p></div></div>
+    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>4</strong></div><div class="tl-content"><div class="tl-phase">Dia 14</div><h4 contenteditable="true">Go-Live</h4><p contenteditable="true">Agentes em produção com dashboards de ROI, faturamento bruto e análise de objeções.</p></div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="inner">
+  <div class="section-tag">Track Record</div>
+  <h2 contenteditable="true">Resultados comprovados <em>em escala.</em></h2>
+  <p class="section-desc" contenteditable="true">Nossa tecnologia opera em escala crítica, com performance validada em testes A/B com cliente oculto. Case G4 Educação: R$2M em 12 dias com recuperação de vendas.</p>
+  <div class="stats-row">
+    <div class="stat-card"><div class="stat-val">6<span>x</span></div><div class="stat-lbl">mais conversão que o mercado</div></div>
+    <div class="stat-card"><div class="stat-val">200<span>+</span></div><div class="stat-lbl">clientes ativos</div></div>
+    <div class="stat-card"><div class="stat-val">14<span>d</span></div><div class="stat-lbl">para Go-Live</div></div>
+  </div>
+  <div class="client-tags-label">Clientes que confiam na Awsales</div>
+  <div class="client-tags"><span class="client-tag">iFood</span><span class="client-tag">G4 Educação</span><span class="client-tag">Tambasa Atacadistas</span><span class="client-tag">Grupo Vitru (Unicesumar)</span><span class="client-tag">StartSe</span><span class="client-tag">Aliança Divergente</span></div>
+</div></section>
+
+<section class="section section-alt"><div class="inner">
+  <div class="section-tag">Responsabilidades</div>
+  <h2 contenteditable="true">Comprometimento <em>mútuo.</em></h2>
+  <p class="section-desc" contenteditable="true">Para garantir o sucesso da implementação em 14 dias.</p>
+  <div class="resp-grid">
+    <div class="resp-card"><h3>Awsales</h3><div class="resp-line" contenteditable="true">Onboarding completo e isento de taxas</div><div class="resp-line" contenteditable="true">Construção dos agentes + playbooks proprietários de recuperação</div><div class="resp-line" contenteditable="true">Account Manager dedicado + relatórios semanais</div><div class="resp-line" contenteditable="true">Suporte técnico e monitoramento de uptime</div></div>
+    <div class="resp-card"><h3>Grupo R1</h3><div class="resp-line" contenteditable="true">Fornecer acesso ao Hubspot e Guru (checkout)</div><div class="resp-line" contenteditable="true">Compartilhar landing pages, VSLs, playbooks e histórico de conversas</div><div class="resp-line" contenteditable="true">Disponibilizar número WhatsApp API</div><div class="resp-line" contenteditable="true">Validar os fluxos e aprovar a entrada em produção</div></div>
+  </div>
+</div></section>
+
+<section class="section"><div class="inner">
+  <div class="section-tag green">Próximos Passos</div>
+  <h2 contenteditable="true">Retorno até <em>terça-feira.</em></h2>
+  <div class="steps-list">
+    <div class="step-card"><div class="step-icon blue">▶</div><div><div class="step-title" contenteditable="true">Revisão com Laura e diretoria</div><div class="step-desc" contenteditable="true">Jonathas apresenta a proposta à diretoria para tomada de decisão final.</div></div></div>
+    <div class="step-card"><div class="step-icon blue">▶</div><div><div class="step-title" contenteditable="true">Retorno até terça-feira</div><div class="step-desc" contenteditable="true">Parecer positivo ou negativo após reunião com a diretoria. Follow-up agendado para quinta-feira.</div></div></div>
+    <div class="step-card"><div class="step-icon green">✓</div><div><div class="step-title" contenteditable="true">Go-Live em 14 dias</div><div class="step-desc" contenteditable="true">Agentes de recuperação e reengajamento operando em produção, integrados ao Hubspot e Guru, com teste A/B ativo contra o time atual.</div></div></div>
+  </div>
+  <div class="reminder" contenteditable="true">Lembrete: se em 30 dias não superarmos a taxa de recuperação de 2% do time atual, <strong>vocês não pagam nada</strong>. O risco é todo nosso.</div>
+</div></section>
+
+<section class="cta-section"><div class="cta-inner">
+  <div class="cta-pre">Awsales · ROI as a Service</div>
+  <h2 contenteditable="true">Transformamos custo em <em>resultado.</em></h2>
+  <p class="cta-desc" contenteditable="true">O Grupo R1 merece um parceiro que jogue no mesmo time: nosso faturamento cresce quando as vendas de vocês crescem.</p>
+  <div class="cta-contact"><div class="cta-name" contenteditable="true">Arthur Betônico</div><div class="cta-role" contenteditable="true">Head of Sales · Awsales</div></div>
+  <div class="cta-links"><div class="cta-link"><div class="cta-link-val" contenteditable="true">arthur@awsales.io</div><div class="cta-link-label">E-mail de contato</div></div><div class="cta-link"><div class="cta-link-val" contenteditable="true">+55 31 99627-6090</div><div class="cta-link-label">WhatsApp</div></div></div>
+</div></section>
+
+<div class="footer">© 2026 Awsales by Aswork. Documento confidencial.</div>
+</body>
+</html>
