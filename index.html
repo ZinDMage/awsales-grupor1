@@ -1,162 +1,1312 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Awsales & Eco Adventure Tour — Proposta Comercial</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Proposta Awsales — Marcados</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap');
-  :root{--brand:#0A7AFF;--brand-light:#3D9AFF;--dark:#07070D;--dark-2:#0E0E18;--cream:#FDFBF7;--cream-2:#FAF8F3;--ink:#111827;--ink-2:#1F2937;--ink-3:#374151;--ink-muted:#6B7280;--ink-light:#9CA3AF;--gold:#C9A84C;--gold-light:#D4B968;--white:#FFFFFF;--green:#00C48C;--green-bg:rgba(0,196,140,.06);--red:#FF3B5C;--border:#E5E7EB;--border-light:#F3F4F6;--radius:16px;--radius-sm:12px;--radius-xs:8px;--shadow-xs:0 1px 2px rgba(0,0,0,.04);--shadow-md:0 4px 16px rgba(0,0,0,.08)}
-  *{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;color:var(--ink-3);background:var(--white);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
-  [contenteditable="true"]{outline:none;border-radius:4px;transition:box-shadow .2s,background .2s;cursor:text}[contenteditable="true"]:hover{box-shadow:0 0 0 2px rgba(10,122,255,.12)}[contenteditable="true"]:focus{box-shadow:0 0 0 2px var(--brand);background:rgba(10,122,255,.02)}
-  .hero{background:linear-gradient(160deg,#07070D 0%,#0E1028 40%,#0A0A1A 100%);color:var(--white);padding:72px 24px 64px;position:relative;overflow:hidden;min-height:90vh;display:flex;align-items:center;justify-content:center}.hero::before{content:'';position:absolute;top:-30%;right:-15%;width:700px;height:700px;background:radial-gradient(circle,rgba(10,122,255,.1) 0%,transparent 65%);pointer-events:none}.hero::after{content:'';position:absolute;bottom:-20%;left:-10%;width:500px;height:500px;background:radial-gradient(circle,rgba(0,196,140,.06) 0%,transparent 65%);pointer-events:none}.hero-inner{max-width:780px;width:100%;position:relative;z-index:1}.hero-confidential{display:inline-flex;align-items:center;gap:8px;padding:7px 16px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);border-radius:40px;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:28px}.hero-confidential-dot{width:5px;height:5px;background:var(--gold);border-radius:50%;animation:pulse 2s infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}.hero-logo{font-size:18px;font-weight:700;letter-spacing:-.3px;color:rgba(255,255,255,.85);margin-bottom:48px}.hero-logo span{color:var(--brand)}.hero h1{font-family:'Playfair Display',Georgia,serif;font-size:clamp(34px,7vw,60px);font-weight:800;line-height:1.06;letter-spacing:-2px;margin-bottom:20px}.hero h1 em{font-style:italic;color:var(--gold-light)}.hero-sub{font-size:clamp(14px,2.2vw,17px);color:rgba(255,255,255,.42);max-width:540px;line-height:1.75}.hero-meta{margin-top:48px;display:grid;grid-template-columns:repeat(4,1fr);gap:0;padding-top:28px;border-top:1px solid rgba(255,255,255,.07)}.hero-meta-item{display:flex;flex-direction:column;gap:4px}.hero-meta-label{font-size:10px;text-transform:uppercase;letter-spacing:1.8px;color:rgba(255,255,255,.25);font-weight:600}.hero-meta-value{font-size:13px;color:rgba(255,255,255,.7);font-weight:500}
-  .section{padding:80px 24px}.section-alt{background:var(--cream)}.inner{max-width:780px;margin:0 auto;position:relative;z-index:1}.section-tag{display:inline-flex;align-items:center;gap:10px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:var(--brand);margin-bottom:16px}.section-tag::before{content:'';width:24px;height:1px;background:currentColor}.section-tag.gold{color:var(--gold)}.section-tag.green{color:var(--green)}.section-tag.red{color:var(--red)}.section h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(26px,5.5vw,46px);font-weight:800;color:var(--ink);letter-spacing:-1.2px;line-height:1.12;margin-bottom:16px}.section h2 em{font-style:italic;color:var(--ink-2)}.section-desc{font-size:clamp(14px,1.8vw,16px);color:var(--ink-muted);max-width:560px;line-height:1.8;margin-bottom:48px}
-  .pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.pillar{padding:32px 24px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);transition:box-shadow .25s,transform .25s}.pillar:hover{box-shadow:var(--shadow-md);transform:translateY(-2px)}.pillar-num{font-size:32px;font-weight:800;color:var(--brand);opacity:.3;font-family:'Playfair Display',serif;margin-bottom:16px}.pillar h3{font-size:16px;font-weight:700;color:var(--ink);margin-bottom:4px}.pillar .pillar-sub{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--ink-light);margin-bottom:12px}.pillar p{font-size:13.5px;color:var(--ink-muted);line-height:1.7}
-  .scope-list{display:grid;grid-template-columns:1fr;gap:16px;margin-top:8px}.scope-item{display:flex;gap:20px;padding:24px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm)}.scope-num{font-size:18px;font-weight:800;color:var(--brand);opacity:.5;flex-shrink:0;padding-top:2px}.scope-item h4{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}.scope-item p{font-size:13.5px;color:var(--ink-muted);line-height:1.65}
-  .tech-list{display:grid;grid-template-columns:1fr;gap:12px}.tech-item{display:flex;gap:16px;padding:20px 24px;background:var(--cream);border-radius:var(--radius-xs);align-items:flex-start}.tech-arrow{font-size:16px;color:var(--brand);font-weight:700;flex-shrink:0;padding-top:1px}.tech-item h4{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}.tech-item p{font-size:13.5px;color:var(--ink-muted);line-height:1.65}
-  .guarantee-section{padding:80px 24px;background:var(--cream)}.guarantee-wrap{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:60px}.guarantee-card{background:linear-gradient(165deg,#1A1A30 0%,#12121F 50%,#0D0D18 100%);border-radius:16px;padding:52px 48px;max-width:460px;width:100%;position:relative;overflow:hidden;flex-shrink:0}.guarantee-card::before{content:'';position:absolute;top:-30%;right:-20%;width:400px;height:400px;background:radial-gradient(circle,rgba(255,255,255,.03) 0%,transparent 60%);pointer-events:none}.guarantee-card .section-tag{color:var(--green);margin-bottom:20px;position:relative;z-index:1}.guarantee-card .section-tag::before{background:var(--green)}.guarantee-card h2{color:var(--white);position:relative;z-index:1;font-size:clamp(30px,4.5vw,44px);line-height:1.08;letter-spacing:-1.2px}.guarantee-card .g-desc{font-size:14.5px;color:rgba(255,255,255,.38);line-height:1.75;margin:18px 0 32px;position:relative;z-index:1}.g-items{display:flex;flex-direction:column;gap:10px;position:relative;z-index:1}.g-item{display:flex;gap:14px;padding:16px 18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.06);border-radius:10px;align-items:flex-start}.g-item-icon{width:30px;height:30px;border-radius:50%;border:1.5px solid rgba(201,168,76,.45);display:flex;align-items:center;justify-content:center;flex-shrink:0;color:var(--gold)}.g-item-icon svg{width:13px;height:13px}.g-item h4{font-size:14px;font-weight:700;color:var(--white);margin-bottom:3px}.g-item p{font-size:13px;color:rgba(255,255,255,.35);line-height:1.55}.guarantee-shield{display:flex;flex-direction:column;align-items:center;justify-content:center;flex-shrink:0}.shield-svg{width:200px;height:220px;margin-bottom:24px}.g-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:3px;color:var(--ink-muted);text-align:center}.g-val{font-family:'Playfair Display',Georgia,serif;font-size:17px;font-style:italic;color:var(--ink-2);text-align:center;margin-top:4px}
-  .pricing-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.pricing-card{padding:32px 28px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius);transition:box-shadow .25s}.pricing-card:hover{box-shadow:var(--shadow-md)}.pricing-label{font-size:12px;font-weight:600;color:var(--ink-muted);margin-bottom:16px}.pricing-val{font-size:clamp(28px,5vw,38px);font-weight:800;color:var(--ink);font-family:'Playfair Display',serif;margin-bottom:4px}.pricing-val span{font-size:14px;font-weight:500;color:var(--ink-light)}.pricing-note{font-size:13px;color:var(--ink-muted);line-height:1.65;margin-top:12px}.pricing-highlight{margin-top:12px;padding:10px 14px;background:var(--green-bg);border:1px solid rgba(0,196,140,.12);border-radius:var(--radius-xs);font-size:12px;font-weight:600;color:var(--green)}
-  .timeline{display:grid;grid-template-columns:1fr;gap:0}.tl-item{display:flex;gap:20px;padding:24px 0;border-bottom:1px solid var(--border)}.tl-item:last-child{border-bottom:none}.tl-badge{min-width:56px;height:56px;border-radius:var(--radius-sm);background:rgba(10,122,255,.05);color:var(--brand);display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;flex-shrink:0}.tl-badge strong{font-size:14px;letter-spacing:0}.tl-content h4{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:4px}.tl-content .tl-phase{font-size:11px;font-weight:600;color:var(--brand);text-transform:uppercase;letter-spacing:1px;margin-bottom:4px}.tl-content p{font-size:13.5px;color:var(--ink-muted);line-height:1.6}
-  .stats-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:40px 0}.stat-card{text-align:center;padding:28px 16px;background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm)}.stat-val{font-size:42px;font-weight:800;color:var(--ink);font-family:'Playfair Display',serif;line-height:1}.stat-val span{color:var(--brand);font-size:22px}.stat-lbl{font-size:12px;color:var(--ink-muted);margin-top:8px}.client-tags-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:2px;color:var(--ink-light);margin-bottom:14px}.client-tags{display:flex;flex-wrap:wrap;gap:8px}.client-tag{padding:8px 18px;background:var(--cream);border:1px solid var(--border);border-radius:40px;font-size:13px;font-weight:500;color:var(--ink-2)}
-  .resp-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.resp-card{padding:28px 24px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--white)}.resp-card h3{font-size:16px;font-weight:700;color:var(--ink);margin-bottom:16px}.resp-line{font-size:14px;color:var(--ink-muted);line-height:1.65;padding:8px 0;border-bottom:1px solid var(--border-light)}.resp-line:last-child{border-bottom:none}
-  .steps-list{display:grid;grid-template-columns:1fr;gap:12px}.step-card{display:flex;gap:16px;padding:20px 24px;background:var(--cream);border:1px solid var(--border);border-radius:var(--radius-sm);align-items:flex-start}.step-icon{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:14px}.step-icon.blue{background:rgba(10,122,255,.08);color:var(--brand)}.step-icon.green{background:rgba(0,196,140,.08);color:var(--green)}.step-title{font-size:15px;font-weight:700;color:var(--ink);margin-bottom:3px}.step-desc{font-size:13px;color:var(--ink-muted);line-height:1.6}.reminder{margin-top:28px;padding:18px 24px;background:var(--green-bg);border:1px solid rgba(0,196,140,.12);border-radius:var(--radius-xs);font-size:14px;color:var(--ink-muted);line-height:1.65}.reminder strong{color:var(--ink)}
-  .cta-section{padding:80px 24px;background:linear-gradient(160deg,#07070D 0%,#0E1028 40%,#0A0A1A 100%);color:var(--white);position:relative;overflow:hidden;text-align:center}.cta-section::before{content:'';position:absolute;top:-30%;left:50%;transform:translateX(-50%);width:600px;height:600px;background:radial-gradient(circle,rgba(10,122,255,.08) 0%,transparent 65%);pointer-events:none}.cta-inner{max-width:600px;margin:0 auto;position:relative;z-index:1}.cta-pre{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:rgba(255,255,255,.3);margin-bottom:16px}.cta-section h2{font-family:'Playfair Display',Georgia,serif;font-size:clamp(24px,5vw,40px);font-weight:800;color:var(--white);letter-spacing:-1px;line-height:1.12;margin-bottom:16px}.cta-section h2 em{font-style:italic;color:rgba(255,255,255,.6)}.cta-desc{font-size:15px;color:rgba(255,255,255,.4);line-height:1.7;margin-bottom:40px}.cta-contact{display:flex;flex-direction:column;align-items:center;gap:4px;margin-bottom:8px}.cta-name{font-size:17px;font-weight:700;color:var(--white)}.cta-role{font-size:13px;color:rgba(255,255,255,.4)}.cta-links{display:flex;justify-content:center;gap:24px;margin-top:16px}.cta-link{display:flex;flex-direction:column;align-items:center;gap:2px}.cta-link-val{font-size:13px;font-weight:600;color:var(--brand-light)}.cta-link-label{font-size:10px;color:rgba(255,255,255,.25);text-transform:uppercase;letter-spacing:1px}.footer{padding:24px;text-align:center;font-size:11px;color:rgba(255,255,255,.2);background:var(--dark);border-top:1px solid rgba(255,255,255,.04)}
-  @media(max-width:768px){.hero{padding:56px 20px 48px;min-height:auto}.hero h1{font-size:clamp(28px,9vw,42px)}.hero-meta{grid-template-columns:repeat(2,1fr);gap:16px}.pillars{grid-template-columns:1fr}.guarantee-wrap{flex-direction:column;gap:40px}.guarantee-card{max-width:100%;padding:40px 28px}.shield-svg{width:160px;height:176px}.pricing-grid{grid-template-columns:1fr}.stats-row{grid-template-columns:1fr}.resp-grid{grid-template-columns:1fr}.section{padding:56px 18px}.cta-links{flex-direction:column;gap:12px}}
+  :root {
+    --navy: #0A1628;
+    --navy-2: #0F1D35;
+    --navy-soft: #1A2B4A;
+    --gold: #C9A961;
+    --gold-soft: #E4CB8F;
+    --ink: #1A1A1A;
+    --ink-2: #3A3A3A;
+    --ink-3: #6B6B6B;
+    --line: #E4E4E7;
+    --bg: #FAFAF7;
+    --card: #FFFFFF;
+    --danger: #A84438;
+    --success: #3D6E4A;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 1100px; margin: 0 auto; padding: 0 32px; }
+
+  /* ===== HERO ===== */
+  .hero {
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-2) 100%);
+    color: #fff;
+    padding: 80px 0 100px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--gold) 50%, transparent);
+    opacity: 0.4;
+  }
+  .hero-label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--gold-soft);
+  }
+  .hero-sub {
+    font-size: 19px;
+    color: #B8C4D6;
+    max-width: 780px;
+    line-height: 1.5;
+    margin-bottom: 48px;
+    font-weight: 300;
+  }
+  .hero-meta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+  .hero-meta-item .label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .hero-meta-item .value {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  /* ===== SECTION BASE ===== */
+  section.block { padding: 100px 0; border-bottom: 1px solid var(--line); }
+  section.block.dark {
+    background: var(--navy);
+    color: #fff;
+    border-bottom: none;
+  }
+  .section-label {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: block;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 1.15;
+    letter-spacing: -0.5px;
+    margin-bottom: 24px;
+    max-width: 820px;
+  }
+  .dark .section-title { color: #fff; }
+  .section-lead {
+    font-size: 18px;
+    color: var(--ink-2);
+    max-width: 740px;
+    line-height: 1.6;
+    margin-bottom: 56px;
+    font-weight: 300;
+  }
+  .dark .section-lead { color: #B8C4D6; }
+
+  /* ===== REVENUE LEAKAGE ===== */
+  .leakage-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 48px;
+  }
+  .leakage-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 36px 32px;
+    border-radius: 4px;
+    position: relative;
+  }
+  .leakage-card.featured {
+    grid-column: span 2;
+    border-left: 3px solid var(--danger);
+    background: linear-gradient(135deg, #fff 0%, #FBF8F3 100%);
+  }
+  .leakage-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    color: var(--gold);
+    font-style: italic;
+    margin-bottom: 14px;
+  }
+  .leakage-card h3 {
+    font-size: 19px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 14px;
+    letter-spacing: -0.2px;
+  }
+  .leakage-card.featured h3 { font-size: 24px; }
+  .leakage-card .chain {
+    font-size: 14px;
+    color: var(--ink-2);
+    line-height: 1.65;
+    margin-bottom: 18px;
+  }
+  .leakage-card .chain strong { color: var(--ink); font-weight: 600; }
+  .leakage-impact {
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--ink-3);
+  }
+  .leakage-impact .num {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    color: var(--danger);
+    font-weight: 500;
+    margin-top: 4px;
+    letter-spacing: -0.5px;
+  }
+  .leakage-card.featured .leakage-impact .num { font-size: 38px; }
+  .leakage-impact small {
+    color: var(--ink-3);
+    font-size: 11px;
+  }
+  .leakage-synthesis {
+    background: var(--navy);
+    color: #fff;
+    padding: 40px 48px;
+    border-radius: 4px;
+    border-left: 3px solid var(--gold);
+    font-size: 17px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .leakage-synthesis strong {
+    color: var(--gold-soft);
+    font-weight: 500;
+  }
+
+  /* ===== ESCOPO ===== */
+  .scope-cluster {
+    margin-bottom: 56px;
+  }
+  .scope-cluster:last-child { margin-bottom: 0; }
+  .cluster-header {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    margin-bottom: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid var(--line);
+  }
+  .cluster-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+  }
+  .cluster-tag {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .campaign {
+    display: grid;
+    grid-template-columns: 60px 1fr 200px;
+    gap: 32px;
+    padding: 32px 0;
+    border-bottom: 1px solid var(--line);
+    align-items: start;
+  }
+  .campaign:last-child { border-bottom: none; }
+  .campaign-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    color: var(--gold);
+    font-weight: 500;
+    line-height: 1;
+  }
+  .campaign-body h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    letter-spacing: -0.3px;
+  }
+  .campaign-obj {
+    font-size: 15px;
+    color: var(--ink-2);
+    margin-bottom: 14px;
+    font-weight: 400;
+  }
+  .campaign-mech {
+    font-size: 13px;
+    color: var(--ink-3);
+    line-height: 1.6;
+  }
+  .campaign-mech strong { color: var(--ink-2); font-weight: 600; }
+  .campaign-kpi {
+    background: var(--bg);
+    padding: 16px 18px;
+    border-radius: 4px;
+    border-left: 2px solid var(--gold);
+  }
+  .campaign-kpi .klabel {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--ink-3);
+    text-transform: uppercase;
+    margin-bottom: 4px;
+  }
+  .campaign-kpi .kvalue {
+    font-size: 13px;
+    color: var(--ink);
+    font-weight: 500;
+    line-height: 1.4;
+  }
+
+  /* ===== GARANTIA ===== */
+  .guarantee {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 48px;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .shield {
+    width: 120px; height: 120px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .guarantee-body h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    letter-spacing: -0.3px;
+  }
+  .guarantee-body h2 em {
+    font-style: italic;
+    color: var(--gold-soft);
+  }
+  .guarantee-body p {
+    font-size: 16px;
+    color: #B8C4D6;
+    line-height: 1.7;
+    margin-bottom: 16px;
+    font-weight: 300;
+  }
+  .guarantee-terms {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 28px;
+    padding-top: 28px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+  }
+  .guarantee-term .tlabel {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+  .guarantee-term .tvalue {
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  /* ===== INVESTIMENTO ===== */
+  .invest-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+  .invest-card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 44px 40px;
+    border-radius: 4px;
+  }
+  .invest-card .itag {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 18px;
+  }
+  .invest-card h3 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    letter-spacing: -0.3px;
+  }
+  .invest-card .isub {
+    font-size: 14px;
+    color: var(--ink-3);
+    margin-bottom: 28px;
+  }
+  .invest-card .iprice {
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--ink);
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .invest-card .iprice .cents {
+    font-size: 22px;
+    color: var(--ink-3);
+  }
+  .invest-card .iperiod {
+    font-size: 13px;
+    color: var(--ink-3);
+    margin-bottom: 24px;
+  }
+  .invest-card .iincludes {
+    font-size: 13px;
+    color: var(--ink-2);
+    line-height: 1.7;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+  .invest-card .iincludes strong { color: var(--ink); font-weight: 600; }
+  .invest-notes {
+    background: var(--navy-soft);
+    color: #fff;
+    padding: 24px 32px;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .invest-notes strong { color: var(--gold-soft); font-weight: 500; }
+
+  /* ===== CUSTO VARIÁVEL ===== */
+  .cv-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  .cv-item {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 28px 24px;
+    border-radius: 4px;
+  }
+  .cv-item .cvlabel {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    font-weight: 500;
+  }
+  .cv-item h4 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .cv-item p {
+    font-size: 13px;
+    color: var(--ink-2);
+    line-height: 1.6;
+  }
+  .cv-range {
+    background: var(--bg);
+    padding: 28px 32px;
+    border-radius: 4px;
+    border-left: 3px solid var(--gold);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+  }
+  .cv-range-text strong { display: block; font-size: 14px; color: var(--ink); margin-bottom: 6px; }
+  .cv-range-text p { font-size: 13px; color: var(--ink-2); line-height: 1.6; }
+  .cv-range-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--ink);
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+    text-align: right;
+  }
+  .cv-range-num small {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: var(--ink-3);
+    font-weight: 400;
+    margin-top: 4px;
+  }
+  .cv-trava {
+    margin-top: 24px;
+    background: var(--navy);
+    color: #fff;
+    padding: 28px 32px;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 300;
+  }
+  .cv-trava strong { color: var(--gold-soft); font-weight: 500; }
+
+  /* ===== CRONOGRAMA ===== */
+  .timeline {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    position: relative;
+  }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    top: 38px;
+    left: 40px; right: 40px;
+    height: 1px;
+    background: var(--line);
+    z-index: 0;
+  }
+  .tl-step {
+    position: relative;
+    z-index: 1;
+  }
+  .tl-dot {
+    width: 16px; height: 16px;
+    background: var(--gold);
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    position: relative;
+    top: 30px;
+    box-shadow: 0 0 0 6px var(--bg);
+  }
+  .tl-phase {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .tl-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    letter-spacing: -0.3px;
+    text-align: center;
+  }
+  .tl-desc {
+    font-size: 13px;
+    color: var(--ink-2);
+    line-height: 1.55;
+    text-align: center;
+  }
+
+  /* ===== TRACK RECORD ===== */
+  .cases-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .case {
+    background: var(--card);
+    border: 1px solid var(--line);
+    padding: 32px 28px;
+    border-radius: 4px;
+  }
+  .case-client {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 4px;
+    letter-spacing: -0.3px;
+  }
+  .case-seg {
+    font-size: 12px;
+    color: var(--ink-3);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+  }
+  .case-challenge {
+    font-size: 13px;
+    color: var(--ink-2);
+    line-height: 1.6;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--line);
+  }
+  .case-challenge strong {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 500;
+  }
+  .case-result {
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    font-weight: 500;
+    color: var(--success);
+    letter-spacing: -0.5px;
+    line-height: 1;
+    margin-bottom: 8px;
+  }
+  .case-result-label {
+    font-size: 13px;
+    color: var(--ink-2);
+    margin-bottom: 18px;
+    line-height: 1.5;
+  }
+  .case-why {
+    font-size: 12px;
+    color: var(--ink-3);
+    line-height: 1.6;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    font-style: italic;
+  }
+
+  /* ===== RESPONSABILIDADES ===== */
+  .resp-table {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .resp-header {
+    background: var(--navy);
+    color: #fff;
+    padding: 18px 24px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .resp-header.gold { color: var(--gold); }
+  .resp-cell {
+    padding: 18px 24px;
+    font-size: 14px;
+    border-top: 1px solid var(--line);
+    color: var(--ink-2);
+    display: flex;
+    align-items: center;
+  }
+  .resp-cell.item { font-weight: 500; color: var(--ink); background: var(--bg); }
+  .resp-cell.check { color: var(--success); font-weight: 600; font-size: 18px; }
+
+  /* ===== PRÓXIMOS PASSOS ===== */
+  .steps {
+    counter-reset: stepnum;
+  }
+  .step {
+    display: grid;
+    grid-template-columns: 60px 1fr 180px 140px;
+    gap: 24px;
+    align-items: center;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .step:last-child { border-bottom: none; }
+  .step-num {
+    counter-increment: stepnum;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    color: var(--gold);
+    font-weight: 500;
+  }
+  .step-num::before { content: counter(stepnum, decimal-leading-zero); }
+  .step-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+  .step-resp, .step-deadline {
+    font-size: 12px;
+    color: var(--ink-3);
+    letter-spacing: 0.5px;
+  }
+  .step-resp strong, .step-deadline strong {
+    display: block;
+    color: var(--gold);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  .kickoff-highlight {
+    background: var(--navy);
+    color: #fff;
+    padding: 24px 32px;
+    border-radius: 4px;
+    margin-top: 32px;
+    border-left: 3px solid var(--gold);
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .kickoff-highlight strong {
+    color: var(--gold-soft);
+    display: block;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+
+  /* ===== FOOTER ===== */
+  footer {
+    background: var(--navy);
+    color: #fff;
+    padding: 64px 0 40px;
+  }
+  .foot-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 48px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .foot-col h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-weight: 500;
+  }
+  .foot-col p, .foot-col a {
+    font-size: 13px;
+    color: #B8C4D6;
+    line-height: 1.7;
+    font-weight: 300;
+    text-decoration: none;
+    display: block;
+  }
+  .foot-col strong { color: #fff; font-weight: 500; }
+  .foot-bottom {
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    color: #6B7A8F;
+    letter-spacing: 1px;
+  }
+  .foot-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: -0.5px;
+  }
+  .foot-brand em { font-style: italic; color: var(--gold); }
+
+  @media (max-width: 860px) {
+    .hero h1 { font-size: 38px; }
+    .section-title { font-size: 32px; }
+    .hero-meta { grid-template-columns: 1fr 1fr; gap: 20px; }
+    .leakage-grid, .invest-grid, .cv-grid, .cases-grid { grid-template-columns: 1fr; }
+    .leakage-card.featured { grid-column: span 1; }
+    .campaign { grid-template-columns: 1fr; gap: 16px; }
+    .campaign-num { font-size: 32px; }
+    .timeline { grid-template-columns: 1fr; gap: 32px; }
+    .timeline::before { display: none; }
+    .tl-dot { top: 0; margin-bottom: 14px; }
+    .guarantee { grid-template-columns: 1fr; gap: 24px; text-align: center; }
+    .shield { margin: 0 auto; }
+    .guarantee-terms { grid-template-columns: 1fr; }
+    .resp-table { grid-template-columns: 1fr; }
+    .resp-header { display: none; }
+    .resp-cell.item { padding: 18px 20px 6px; }
+    .step { grid-template-columns: 50px 1fr; }
+    .step-resp, .step-deadline { grid-column: 2; }
+    .foot-grid { grid-template-columns: 1fr; gap: 32px; }
+    .cv-range { grid-template-columns: 1fr; }
+    .cv-range-num { text-align: left; }
+  }
 </style>
 </head>
 <body>
-<section class="hero"><div class="hero-inner">
-  <div class="hero-confidential"><div class="hero-confidential-dot"></div> Proposta Comercial Confidencial</div>
-  <div class="hero-logo">Aw<span>sales</span></div>
-  <h1 contenteditable="true">Autonomous Service Builder para a <em>Eco Adventure Tour.</em></h1>
-  <p class="hero-sub" contenteditable="true">De Software-as-a-Service para Service-as-a-Software. Entregamos conversão — não ferramentas de chatbot. De 1,3% para 2,5%, com agentes Liga 3 integrados ao RD Station CRM.</p>
-  <div class="hero-meta">
-    <div class="hero-meta-item"><span class="hero-meta-label">Preparado para</span><span class="hero-meta-value" contenteditable="true">Marcos Fonteles</span></div>
-    <div class="hero-meta-item"><span class="hero-meta-label">Data</span><span class="hero-meta-value" contenteditable="true">17 de Abril, 2026</span></div>
-    <div class="hero-meta-item"><span class="hero-meta-label">Validade</span><span class="hero-meta-value" contenteditable="true">15 dias · até 27/04</span></div>
-    <div class="hero-meta-item"><span class="hero-meta-label">Responsável</span><span class="hero-meta-value" contenteditable="true">Arthur Betônico</span></div>
-  </div>
-</div></section>
-<section class="section"><div class="inner">
-  <div class="section-tag gold">Tecnologia Proprietária</div>
-  <h2 contenteditable="true">Três pilares da plataforma <em>AURA.</em></h2>
-  <p class="section-desc" contenteditable="true">Enquanto bots Liga 1 (árvore de decisão) e Liga 2 (IA humanizada sem execução) exigem fluxos manuais, nossa tecnologia Liga 3 fecha o ciclo de autonomia completo — qualifica, agenda, faz follow-up e converte.</p>
-  <div class="pillars">
-    <div class="pillar"><div class="pillar-num">01</div><h3 contenteditable="true">Agent Builder</h3><div class="pillar-sub">Construtor</div><p contenteditable="true">O sistema ingere o site da Eco Adventure, playbooks de vendas, scripts e catálogo de produtos para criar agentes prontos em tempo recorde. Sem fluxogramas.</p></div>
-    <div class="pillar"><div class="pillar-num">02</div><h3 contenteditable="true">Execution Engine</h3><div class="pillar-sub">Motor · Multi-Agent</div><p contenteditable="true">Vai além da conversa. Runtime orquestra múltiplos agentes (copywriter + Response Guard Rail anti-alucinação) e executa ações transacionais em tempo real.</p></div>
-    <div class="pillar"><div class="pillar-num">03</div><h3 contenteditable="true">Optimization Brain</h3><div class="pillar-sub">Cérebro · Dados Federados</div><p contenteditable="true">Aprende com padrões mapeados em mais de 200 clientes — gatilhos de venda, melhores horários de follow-up e padrões específicos para o mercado de turismo.</p></div>
-  </div>
-</div></section>
-<section class="section section-alt"><div class="inner">
-  <div class="section-tag">Escopo da Solução</div>
-  <h2 contenteditable="true">Agentes autônomos para escalar a <em>Eco Adventure Tour.</em></h2>
-  <p class="section-desc" contenteditable="true">Desenhamos uma solução focada em resolver o gargalo crítico: 70% dos leads somem após o orçamento e a conversão atual está em 1,3% — meta 2,5%.</p>
-  <div class="scope-list">
-    <div class="scope-item"><div class="scope-num">1.</div><div><h4 contenteditable="true">SDR — Qualificação e Agendamento</h4><p contenteditable="true">Agente autônomo Liga 3 que qualifica o lead (destino, tamanho do grupo, perfil), diagnostica o encaixe no pacote correto e agenda a reunião com o consultor humano — substituindo 5+ tentativas internas fracassadas de SDR.</p></div></div>
-    <div class="scope-item"><div class="scope-num">2.</div><div><h4 contenteditable="true">Recuperação de Leads Frios</h4><p contenteditable="true">Atuação ativa sobre os 70% que somem após o orçamento. Follow-up autônomo com mensagens criadas dinamicamente (sem templates engessados) e aquecimento baseado no perfil (quente/morno/frio) mapeado no RD Station.</p></div></div>
-    <div class="scope-item"><div class="scope-num">3.</div><div><h4 contenteditable="true">Copilot para a Equipe Comercial</h4><p contenteditable="true">Após o hand-off para os 8 consultores, o copiloto sugere respostas baseadas no histórico da conversa, envia templates relevantes e gera resumo automático dentro do RD Station — destravando produtividade sem depender de novas contratações.</p></div></div>
-  </div>
-</div></section>
-<section class="section"><div class="inner">
-  <div class="section-tag">Entrega Técnica</div>
-  <h2 contenteditable="true">O que está incluso na <em>implantação.</em></h2>
-  <p class="section-desc" contenteditable="true">Cada etapa é conduzida pelo nosso time de Account Manager, engenheiros de IA e operadores.</p>
-  <div class="tech-list">
-    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Base de Conhecimento Proprietária</h4><p contenteditable="true">Ingestão do site da Eco Adventure, playbook de vendas (qualificação + quebra de objeções) e catálogo de produtos. Construção de know-how proprietário para alavancar conversão de 1,3% → 2,5%.</p></div></div>
-    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Infraestrutura WhatsApp + Multi-Idioma</h4><p contenteditable="true">Ativação da API oficial WhatsApp Business, análise de sentimento, atendimento em múltiplos idiomas (turistas estrangeiros) e adaptação a sotaques regionais. Respostas por texto e áudio.</p></div></div>
-    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Integração Nativa RD Station CRM</h4><p contenteditable="true">Conexão nativa com o RD Station para sincronizar classificação de leads (quente/morno/frio), histórico de conversa, resumos automáticos e tags comportamentais. Integração adicional com Google Calendar.</p></div></div>
-    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Dashboards e Análise de Objeções</h4><p contenteditable="true">Relatórios automáticos de faturamento, ticket médio, funil, CAC e análise de objeções (distribuição por tipo + análise sentimental) com plano de otimização estratégica.</p></div></div>
-    <div class="tech-item"><div class="tech-arrow">→</div><div><h4 contenteditable="true">Validação e Go-Live</h4><p contenteditable="true">Teste A/B com cliente oculto comparando agente vs. equipe atual, simulação de cenários de objeção, testes de latência e guardrails de compliance antes do Go-Live.</p></div></div>
-  </div>
-</div></section>
-<section class="guarantee-section"><div class="guarantee-wrap">
-  <div class="guarantee-card">
-    <div class="section-tag green">Risco Zero</div>
-    <h2>Money-Back<br>Guarantee.</h2>
-    <p class="g-desc" contenteditable="true">Se em 30 dias de operação a conversão não superar os KPIs atuais da Eco Adventure (baseline 1,3%), você não paga nada.</p>
-    <div class="g-items">
-      <div class="g-item"><div class="g-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><div><h4 contenteditable="true">Teste A/B Rigoroso</h4><p contenteditable="true">Comparação direta com a performance dos 8 consultores atuais.</p></div></div>
-      <div class="g-item"><div class="g-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><div><h4 contenteditable="true">Variável Zerado se Sem ROI</h4><p contenteditable="true">Se os KPIs não melhorarem, o custo variável por lead não é cobrado.</p></div></div>
-      <div class="g-item"><div class="g-item-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg></div><div><h4 contenteditable="true">Reembolso Contratual 100%</h4><p contenteditable="true">Devolvemos 100% do valor investido se não superar ROI atual.</p></div></div>
+
+<!-- ============ HERO ============ -->
+<header class="hero">
+  <div class="container">
+    <div class="hero-label">Proposta Comercial · Enterprise</div>
+    <h1>Tirar o operacional do seu colo —<br /><em>e devolver a estratégia para você.</em></h1>
+    <p class="hero-sub">Operação autônoma de vendas, recuperação e onboarding para todo o portfólio Marcados — Aula 18, Márcia, PENAC, Blocos do Tempo e Grupo Marcados — com garantia de ROAS positivo e 7 dias para o go-live.</p>
+
+    <div class="hero-meta">
+      <div class="hero-meta-item">
+        <div class="label">Cliente</div>
+        <div class="value" contenteditable="true">Marcados</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="label">Decisor</div>
+        <div class="value" contenteditable="true">Mateus · Gestão de Projetos</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="label">Emissão</div>
+        <div class="value" contenteditable="true">25 de abril de 2026</div>
+      </div>
+      <div class="hero-meta-item">
+        <div class="label">Validade</div>
+        <div class="value" contenteditable="true">15 dias corridos</div>
+      </div>
     </div>
   </div>
-  <div class="guarantee-shield">
-    <svg class="shield-svg" viewBox="0 0 200 230" fill="none" xmlns="http://www.w3.org/2000/svg"><polygon points="100,12 175,48 175,155 100,195 25,155 25,48" fill="none" stroke="#C0B8A0" stroke-width=".7" opacity=".3"/><circle cx="24" cy="120" r="3" fill="#90A8C0" opacity=".5"/><circle cx="176" cy="100" r="3" fill="#90A8C0" opacity=".5"/><circle cx="100" cy="192" r="2.5" fill="#90A8C0" opacity=".35"/><path d="M100,38 C100,38 158,56 166,60 C166,118 157,162 100,190 C43,162 34,118 34,60 C42,56 100,38 100,38Z" fill="url(#s1nd)" stroke="#B8A870" stroke-width="1" opacity=".85"/><path d="M100,50 C100,50 148,65 155,68 C155,118 147,155 100,180 C53,155 45,118 45,68 C52,65 100,50 100,50Z" fill="url(#s2nd)" opacity=".4"/><ellipse cx="100" cy="108" rx="30" ry="34" fill="url(#s3nd)" opacity=".5"/><circle cx="100" cy="104" r="24" fill="#00C48C" opacity=".12"/><circle cx="100" cy="104" r="16" fill="#00C48C" opacity=".2"/><polyline points="91,104 97,111 111,96" fill="none" stroke="#00C48C" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/><defs><radialGradient id="s1nd" cx="50%" cy="35%" r="65%"><stop offset="0%" stop-color="#EDE8D4"/><stop offset="100%" stop-color="#C8C0A8"/></radialGradient><radialGradient id="s2nd" cx="50%" cy="38%" r="55%"><stop offset="0%" stop-color="#F5F0E0" stop-opacity=".6"/><stop offset="100%" stop-color="#D8D0BC" stop-opacity="0"/></radialGradient><radialGradient id="s3nd" cx="50%" cy="45%" r="50%"><stop offset="0%" stop-color="#E0DCC8" stop-opacity=".8"/><stop offset="100%" stop-color="#D0C8B0" stop-opacity="0"/></radialGradient></defs></svg>
-    <div class="g-label">GARANTIA CONTRATUAL</div>
-    <div class="g-val">30 dias · 100% reembolso</div>
-  </div>
-</div></section>
-<section class="section"><div class="inner">
-  <div class="section-tag">Investimento</div>
-  <h2 contenteditable="true">Modelo comercial <em>Service-as-a-Software.</em></h2>
-  <p class="section-desc" contenteditable="true">Vocês pagam pela capacidade produtiva do agente. Nosso faturamento cresce conforme escalamos o resultado de vocês — alinhamento 100% de interesse.</p>
-  <div class="pricing-grid">
-    <div class="pricing-card">
-      <div class="pricing-label">Setup — Implantação</div>
-      <div class="pricing-val" contenteditable="true">R$ 15.000</div>
-      <div class="pricing-val"><span>pagamento único</span></div>
-      <p class="pricing-note" contenteditable="true">Alocação do time de Account Manager, engenheiros de IA e operadores para transformar o know-how da Eco Adventure Tour em agentes autônomos Liga 3 integrados ao RD Station e WhatsApp Business API.</p>
-      <div class="pricing-highlight" contenteditable="true">🛡️ Coberto pela garantia de 30 dias · Risco Zero</div>
+</header>
+
+<!-- ============ 1. REVENUE LEAKAGE ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">01 · Revenue Leakage</span>
+    <h2 class="section-title">Onde a Marcados está deixando dinheiro na mesa.</h2>
+    <p class="section-lead">Cada gargalo abaixo foi extraído diretamente da nossa conversa. O ponto comum entre todos: dependem de capacidade humana que não escala — você mesmo verbalizou que "não tem como uma pessoa física fazer".</p>
+
+    <div class="leakage-grid">
+
+      <!-- LEAK 1 - FEATURED (renovações) -->
+      <div class="leakage-card featured">
+        <div class="leakage-num">Gargalo 01 · O maior</div>
+        <h3>Renovações anuais com 50% de desconto sem sistema</h3>
+        <p class="chain">
+          <strong>Sintoma:</strong> Mais de 1.000 alunos no Grupo Marcados que vão entrar em ciclo de renovação. Hoje, sem operação ativa para reativar e converter essa base.<br /><br />
+          <strong>Perda direta:</strong> Cada renovação não capturada é receita de R$ 950 a R$ 1.250 (50% do ticket original) que evapora em silêncio — e o aluno provavelmente nem percebe que tinha a oferta.<br /><br />
+          <strong>Efeito composto:</strong> Sua palavra na call: <em>"é um dinheiro que tá na mesa, sabe?"</em>. A cada ano sem sistema, o pool de renovação cresce e o problema multiplica.
+        </p>
+        <div class="leakage-impact">
+          Receita potencial em renovações · base atual
+          <span class="num">R$ 950k a R$ 1,25M</span>
+          <small>Premissa: 1.000 alunos × R$ 950–1.250 de renovação. Conversão real depende da operação.</small>
+        </div>
+      </div>
+
+      <!-- LEAK 2 -->
+      <div class="leakage-card">
+        <div class="leakage-num">Gargalo 02</div>
+        <h3>Lista quente do lançamento sem operação</h3>
+        <p class="chain">
+          <strong>Sintoma:</strong> Você é o responsável por contatar quem comprou ingresso da live paga — e admite que não dá conta sozinho.<br /><br />
+          <strong>Perda direta:</strong> Lista qualificada, aquecida e disposta a comprar não recebe a abordagem persistente que converte. Vira no-show e venda perdida.<br /><br />
+          <strong>Efeito composto:</strong> A cada lançamento, você refaz o gargalo manualmente. Nunca sobra tempo para estratégia.
+        </p>
+        <div class="leakage-impact">
+          Custo direto a você
+          <span class="num">Operação > Estratégia</span>
+          <small>Você descreveu na call: querer migrar 100% para gestão de projetos.</small>
+        </div>
+      </div>
+
+      <!-- LEAK 3 -->
+      <div class="leakage-card">
+        <div class="leakage-num">Gargalo 03</div>
+        <h3>4 perpétuos sem recuperação ativa</h3>
+        <p class="chain">
+          <strong>Sintoma:</strong> Aula 18, Márcia, PENAC e Blocos do Tempo recebem tráfego pago — mas carrinho abandonado, pix gerado e cartão recusado não têm operação de recuperação dedicada.<br /><br />
+          <strong>Perda direta:</strong> ROAS de tráfego comprometido por taxa de fechamento abaixo do potencial.<br /><br />
+          <strong>Efeito composto:</strong> Toda otimização de criativo no Meta esbarra nesse teto invisível de conversão pós-clique.
+        </p>
+        <div class="leakage-impact">
+          Benchmark Awsales · case Daxus
+          <span class="num">+R$ 65k em 1 dia</span>
+          <small>Pico de recuperação na abertura de carrinho de 1 lançamento.</small>
+        </div>
+      </div>
+
+      <!-- LEAK 4 -->
+      <div class="leakage-card">
+        <div class="leakage-num">Gargalo 04</div>
+        <h3>Onboarding de 8 semanas sem escala</h3>
+        <p class="chain">
+          <strong>Sintoma:</strong> A campanha de acompanhamento durante as 8 semanas do método Marcados foi feita com pessoa física. Validou que funciona — mas não escala.<br /><br />
+          <strong>Perda direta:</strong> LTV abaixo do potencial. Aluno que não conclui a jornada não renova, não indica e não compra a mentoria.<br /><br />
+          <strong>Efeito composto:</strong> Toda a base de Grupo Marcados sub-explorada como ativo de receita recorrente.
+        </p>
+        <div class="leakage-impact">
+          Benchmark Awsales · agente concierge
+          <span class="num">24/7 escalável</span>
+          <small>Caso Talita Perosa · suporte conversacional ativo durante toda a jornada do produto.</small>
+        </div>
+      </div>
+
+      <!-- LEAK 5 -->
+      <div class="leakage-card">
+        <div class="leakage-num">Gargalo 05</div>
+        <h3>Lista de espera / aplicação sem qualificação ativa</h3>
+        <p class="chain">
+          <strong>Sintoma:</strong> Novo modelo de aplicação via TypeForm para Grupo Marcados depende de alguém revisar e contatar. Sem cadência ativa, lead esfria.<br /><br />
+          <strong>Perda direta:</strong> Lead qualificado que respondeu o formulário e demonstrou intenção entra em fila e perde calor.<br /><br />
+          <strong>Efeito composto:</strong> O modelo "always-on" só funciona se a operação for "always-on" também — e humano não é.
+        </p>
+        <div class="leakage-impact">
+          Janela ideal de contato
+          <span class="num">< 30 minutos</span>
+          <small>Após resposta do TypeForm, conforme benchmark de lançamento Marcados.</small>
+        </div>
+      </div>
     </div>
-    <div class="pricing-card">
-      <div class="pricing-label">Operação Mensal</div>
-      <div class="pricing-val" contenteditable="true">R$ 2.500</div>
-      <div class="pricing-val"><span>fixo + R$ 2 a R$ 8 por lead engajado</span></div>
-      <p class="pricing-note" contenteditable="true">Fixo inclui Account Manager, engenheiros de IA e operadores. Variável por lead cobre tokens de IA, API oficial Meta (WhatsApp) e banco de dados. Estimativa: 5.000 leads × R$ 5 médio = R$ 25.000/mês variável.</p>
-      <div class="pricing-highlight" contenteditable="true">✓ Teto do variável pode ser travado em R$ 6/lead — previsibilidade total</div>
+
+    <div class="leakage-synthesis">
+      Os cinco pontos compartilham a mesma raiz: <strong>operação que depende de pessoa física não escala</strong>. A capacidade produtiva da Marcados hoje é limitada pela hora-Mateus disponível — e o crescimento de R$ 300k → R$ 1M → R$ 2M → R$ 4M demonstra que o gargalo está deixando de ser oportunidade e virando teto.
     </div>
   </div>
-</div></section>
-<section class="section section-alt"><div class="inner">
-  <div class="section-tag">Cronograma</div>
-  <h2 contenteditable="true">14 dias para <em>Go-Live.</em></h2>
-  <p class="section-desc" contenteditable="true">Implementação acelerada aproveitando que a Eco Adventure já opera com RD Station CRM.</p>
-  <div class="timeline">
-    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>1</strong></div><div class="tl-content"><div class="tl-phase">Dias 1 a 3</div><h4 contenteditable="true">Onboarding e Coleta</h4><p contenteditable="true">Coleta do playbook de vendas, scripts, catálogo de produtos e ingestão do site da Eco Adventure Tour.</p></div></div>
-    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>2</strong></div><div class="tl-content"><div class="tl-phase">Dias 4 a 8</div><h4 contenteditable="true">Construção dos Agentes</h4><p contenteditable="true">Desenvolvimento do SDR, lógica de qualificação por destino/grupo, quebra de objeções e Response Guard Rail anti-alucinação.</p></div></div>
-    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>3</strong></div><div class="tl-content"><div class="tl-phase">Dias 9 a 12</div><h4 contenteditable="true">Integração RD Station + Testes</h4><p contenteditable="true">Integração nativa com RD Station CRM, Google Calendar e WhatsApp API oficial. Validação A/B e simulação de cenários.</p></div></div>
-    <div class="tl-item"><div class="tl-badge"><span>Fase</span><strong>4</strong></div><div class="tl-content"><div class="tl-phase">Dia 14</div><h4 contenteditable="true">Go-Live</h4><p contenteditable="true">Agentes em produção com monitoramento em tempo real. Início da janela de 30 dias da garantia de performance.</p></div></div>
+</section>
+
+<!-- ============ 2. ESCOPO ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">02 · Escopo da Solução</span>
+    <h2 class="section-title">Cinco campanhas operadas pela Awsales, em dois blocos.</h2>
+    <p class="section-lead">A Awsales opera — não entrega ferramenta. Cada campanha roda em agentes AURA autônomos, integrados a Kiwify e WhatsApp API oficial, no mesmo número, com Optimization Brain que melhora a conversão semana após semana.</p>
+
+    <!-- CLUSTER 1 -->
+    <div class="scope-cluster">
+      <div class="cluster-header">
+        <div class="cluster-tag">Bloco A</div>
+        <div class="cluster-name">Vendas & Recuperação</div>
+      </div>
+
+      <div class="campaign">
+        <div class="campaign-num">01</div>
+        <div class="campaign-body">
+          <h3>Recuperação de Vendas — 4 perpétuos</h3>
+          <p class="campaign-obj">Operar carrinho abandonado, pix gerado e cartão recusado em Aula 18, Márcia, PENAC e Blocos do Tempo, transformando intenção paga em receita realizada.</p>
+          <p class="campaign-mech"><strong>Mecânica AURA:</strong> agente "Aniquilador de Objeção" via WhatsApp API oficial, integração nativa com Kiwify (webhooks de cada evento). Smart Follow-up — a IA decide cadência por perfil de lead. Amarra ao <strong>Gargalo 03</strong>.</p>
+        </div>
+        <div class="campaign-kpi">
+          <div class="klabel">KPI Primário</div>
+          <div class="kvalue">ROAS positivo sobre investimento total no período</div>
+        </div>
+      </div>
+
+      <div class="campaign">
+        <div class="campaign-num">02</div>
+        <div class="campaign-body">
+          <h3>Sistema de Renovações Anuais</h3>
+          <p class="campaign-obj">Operar a oferta de renovação com 50% de desconto para a base ativa do Grupo Marcados. Reativar com antecedência, qualificar interesse, agendar pagamento e capturar receita que hoje evapora.</p>
+          <p class="campaign-mech"><strong>Mecânica AURA:</strong> agente dedicado com cadência calibrada por data de aniversário da matrícula original. Base de conhecimento alimentada pelo histórico de uso na comunidade. Amarra ao <strong>Gargalo 01</strong> — o de maior potencial financeiro.</p>
+        </div>
+        <div class="campaign-kpi">
+          <div class="klabel">KPI Primário</div>
+          <div class="kvalue">Taxa de renovação convertida × base elegível</div>
+        </div>
+      </div>
+
+      <div class="campaign">
+        <div class="campaign-num">03</div>
+        <div class="campaign-body">
+          <h3>Recuperação & Conversão da Lista de Espera</h3>
+          <p class="campaign-obj">Atender leads que respondem o TypeForm de aplicação para o Grupo Marcados em janela curta, qualificar pelo seu critério de cliente potencial, agendar e fazer a venda direta dos qualificados.</p>
+          <p class="campaign-mech"><strong>Mecânica AURA:</strong> trigger por evento TypeForm; agente SDR + Closer no mesmo número (orquestrador troca o perfil sem trocar a conversa). Para não-qualificados, IA encaminha para trilha de nutrição. Amarra ao <strong>Gargalo 05</strong>.</p>
+        </div>
+        <div class="campaign-kpi">
+          <div class="klabel">KPI Primário</div>
+          <div class="kvalue">Conversão de aplicações qualificadas em matrícula</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CLUSTER 2 -->
+    <div class="scope-cluster">
+      <div class="cluster-header">
+        <div class="cluster-tag">Bloco B</div>
+        <div class="cluster-name">Concierge & Onboarding</div>
+      </div>
+
+      <div class="campaign">
+        <div class="campaign-num">04</div>
+        <div class="campaign-body">
+          <h3>Concierge de Lançamento Pago — Grupo Marcados</h3>
+          <p class="campaign-obj">Acolher quem compra ingresso da live, elevar consciência sobre o produto, garantir show-up no dia do evento e operar a venda do Grupo Marcados em janela curta de oferta.</p>
+          <p class="campaign-mech"><strong>Mecânica AURA:</strong> agente "Sofia" ativado por evento de compra do ingresso. Trilha de doutrinação até a live, lembrete de show-up, suporte durante a transmissão e cadência de fechamento pós-live. Amarra ao <strong>Gargalo 02</strong>.</p>
+        </div>
+        <div class="campaign-kpi">
+          <div class="klabel">KPI Primário</div>
+          <div class="kvalue">Show-up na live + conversão pós-live</div>
+        </div>
+      </div>
+
+      <div class="campaign">
+        <div class="campaign-num">05</div>
+        <div class="campaign-body">
+          <h3>Onboarding de 8 Semanas — Método Marcados</h3>
+          <p class="campaign-obj">Reproduzir em escala a campanha que foi validada com pessoa física: acompanhar o aluno semana a semana ao longo do método, prestar contas, engajar em tarefas e abrir caminho para upsell e indicação.</p>
+          <p class="campaign-mech"><strong>Mecânica AURA:</strong> agente concierge com calendário sincronizado às 8 semanas do método; ativado por evento de compra aprovada via Kiwify; integração com área de membros para identificar progresso real. Amarra ao <strong>Gargalo 04</strong>.</p>
+        </div>
+        <div class="campaign-kpi">
+          <div class="klabel">KPI Primário</div>
+          <div class="kvalue">Engajamento semanal × abertura de upsell e indicação</div>
+        </div>
+      </div>
+    </div>
   </div>
-</div></section>
-<section class="section"><div class="inner">
-  <div class="section-tag">Track Record</div>
-  <h2 contenteditable="true">Resultados comprovados <em>em escala.</em></h2>
-  <p class="section-desc" contenteditable="true">Nossa tecnologia opera em escala crítica, com performance validada em testes A/B com cliente oculto — inclusive procurada pela Blip, gigante da América Latina.</p>
-  <div class="stats-row">
-    <div class="stat-card"><div class="stat-val">6<span>x</span></div><div class="stat-lbl">mais conversão que o mercado</div></div>
-    <div class="stat-card"><div class="stat-val">200<span>+</span></div><div class="stat-lbl">clientes ativos (dados federados)</div></div>
-    <div class="stat-card"><div class="stat-val">14<span>d</span></div><div class="stat-lbl">para Go-Live</div></div>
+</section>
+
+<!-- ============ 3. GARANTIA ============ -->
+<section class="block dark">
+  <div class="container">
+    <span class="section-label">03 · Garantia de Resultado</span>
+    <div class="guarantee">
+      <div class="shield">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+          <defs>
+            <linearGradient id="shieldGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#E4CB8F"/>
+              <stop offset="100%" stop-color="#C9A961"/>
+            </linearGradient>
+          </defs>
+          <path d="M60 8 L105 26 L105 62 C105 86 85 104 60 112 C35 104 15 86 15 62 L15 26 Z"
+                fill="none" stroke="url(#shieldGrad)" stroke-width="2"/>
+          <path d="M40 58 L55 73 L82 46" fill="none" stroke="url(#shieldGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="guarantee-body">
+        <h2>Sem ROAS positivo, <em>você não paga</em> o custo variável.</h2>
+        <p>A Awsales opera a Recuperação de Vendas dos 4 perpétuos sob garantia. Se o ROAS consolidado da operação não for positivo nos primeiros 30 dias, a Marcados fica <strong>isenta dos custos variáveis do período</strong>. Você só paga o variável se a operação entregou retorno acima do custo.</p>
+        <p>A garantia é lastreada no histórico: <strong>R$ 2M vendidos em um único agente da G4</strong>, <strong>ROAS demonstrado em tela na Daxus</strong>, <strong>pico de R$ 65k recuperados em 1 dia</strong>. Não é promessa — é performance validada em operações de perfil comparável.</p>
+
+        <div class="guarantee-terms">
+          <div class="guarantee-term">
+            <div class="tlabel">KPI de Garantia</div>
+            <div class="tvalue">ROAS positivo na recuperação de vendas</div>
+          </div>
+          <div class="guarantee-term">
+            <div class="tlabel">Período</div>
+            <div class="tvalue">Primeiros 30 dias de operação</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="client-tags-label">Clientes que confiam na Awsales</div>
-  <div class="client-tags"><span class="client-tag">iFood</span><span class="client-tag">Tambasa Atacadistas</span><span class="client-tag">Emive</span><span class="client-tag">Grupo Vitru (Unicesumar)</span><span class="client-tag">G4 Educação</span><span class="client-tag">Aliança Divergente</span></div>
-</div></section>
-<section class="section section-alt"><div class="inner">
-  <div class="section-tag">Responsabilidades</div>
-  <h2 contenteditable="true">Comprometimento <em>mútuo.</em></h2>
-  <p class="section-desc" contenteditable="true">Para garantir o Go-Live em 14 dias e a entrega da meta de 2,5% de conversão.</p>
-  <div class="resp-grid">
-    <div class="resp-card"><h3>Awsales</h3><div class="resp-line" contenteditable="true">Onboarding completo, desenvolvimento e treinamento dos agentes</div><div class="resp-line" contenteditable="true">Optimization Brain com dados federados e tuning contínuo</div><div class="resp-line" contenteditable="true">Account Manager dedicado + suporte e monitoramento de uptime</div><div class="resp-line" contenteditable="true">Controle de custo variável com teto acordado em contrato</div></div>
-    <div class="resp-card"><h3>Eco Adventure Tour</h3><div class="resp-line" contenteditable="true">Disponibilizar playbook de vendas, scripts e catálogo de produtos</div><div class="resp-line" contenteditable="true">Fornecer acesso ao RD Station CRM e número WhatsApp Business API</div><div class="resp-line" contenteditable="true">Compartilhar KPIs atuais (baseline) para o teste A/B</div><div class="resp-line" contenteditable="true">Validar os fluxos e aprovar a entrada em produção</div></div>
+</section>
+
+<!-- ============ 4. INVESTIMENTO ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">04 · Investimento</span>
+    <h2 class="section-title">Estrutura enxuta, previsível, sem surpresa.</h2>
+    <p class="section-lead">Dois componentes fixos cobrem toda a operação das 5 campanhas: implantação única e mensalidade. O custo variável é tratado na próxima seção, com trava orçamentária pré-aprovada pela Marcados.</p>
+
+    <div class="invest-grid">
+      <div class="invest-card">
+        <div class="itag">Pagamento Único</div>
+        <h3>Implantação</h3>
+        <p class="isub">Setup completo da operação — ambiente, integrações, agentes e bases de conhecimento.</p>
+        <div class="iprice">R$ 10.500<span class="cents">,00</span></div>
+        <div class="iperiod">pago uma única vez, na assinatura</div>
+        <div class="iincludes">
+          <strong>Inclui:</strong> estruturação dos 5 agentes AURA (recuperação, renovações, lista de espera, concierge de lançamento, onboarding 8 semanas); construção da base de conhecimento de 5 produtos (Aula 18, Márcia, PENAC, Blocos do Tempo, Grupo Marcados); integração nativa com Kiwify; ativação da API oficial do WhatsApp como Meta Tech Provider; mapeamento dos POPs de cada campanha; reunião de onboarding com gestor de projetos AI dedicado.
+        </div>
+      </div>
+
+      <div class="invest-card">
+        <div class="itag">Recorrente Mensal</div>
+        <h3>Mensalidade Awsales</h3>
+        <p class="isub">Operação contínua das 5 campanhas, otimização e equipe dedicada.</p>
+        <div class="iprice">R$ 2.500<span class="cents">,00</span></div>
+        <div class="iperiod">mensal · recorrente</div>
+        <div class="iincludes">
+          <strong>Inclui:</strong> operação 24/7 dos agentes AURA; Optimization Brain (auto-otimização em tempo real); gestor de projetos AI dedicado (par técnico do Mateus); equipe de engenheiros e operadores; dashboards de faturamento, ROAS e margem; aprovação e gestão de templates Meta; relatórios diários/semanais; reuniões de governança mensais; sem fidelidade — descontinuação a qualquer momento mediante solicitação.
+        </div>
+      </div>
+    </div>
+
+    <div class="invest-notes">
+      <strong>Condição comercial.</strong> Implantação paga na assinatura do contrato. Mensalidade faturada a partir do go-live. Sem multa de cancelamento. <strong>Validade desta condição: 15 dias corridos</strong> a partir da emissão desta proposta.
+    </div>
   </div>
-</div></section>
-<section class="section"><div class="inner">
-  <div class="section-tag green">Próximos Passos</div>
-  <h2 contenteditable="true">Começamos <em>agora.</em></h2>
-  <div class="steps-list">
-    <div class="step-card"><div class="step-icon blue">▶</div><div><div class="step-title" contenteditable="true">Assinatura até 27/04</div><div class="step-desc" contenteditable="true">Confirmação do setup de R$ 15.000 e ativação da garantia de performance Risco Zero. Prazo de retorno definido em reunião: 27 de abril.</div></div></div>
-    <div class="step-card"><div class="step-icon blue">▶</div><div><div class="step-title" contenteditable="true">Onboarding imediato pós-assinatura</div><div class="step-desc" contenteditable="true">Kick-off com alocação do Account Manager, engenheiros de IA e operadores para configurar os agentes da Eco Adventure Tour.</div></div></div>
-    <div class="step-card"><div class="step-icon green">✓</div><div><div class="step-title" contenteditable="true">Go-Live em 14 dias</div><div class="step-desc" contenteditable="true">Agente SDR, recuperação de leads frios e copilot operando em produção com monitoramento em tempo real e dashboards de objeções.</div></div></div>
+</section>
+
+<!-- ============ 5. CUSTO VARIÁVEL ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">05 · Custo Variável</span>
+    <h2 class="section-title">Transparência radical sobre o custo por conversa.</h2>
+    <p class="section-lead">Nada de caixa-preta. Três componentes, controlados por orçamento pré-aprovado, com trava automática para garantir previsibilidade orçamentária mês a mês.</p>
+
+    <div class="cv-grid">
+      <div class="cv-item">
+        <div class="cvlabel">Componente 01</div>
+        <h4>Tokens LLM</h4>
+        <p>Custo de processamento dos modelos (Gemini, GPT, Grok, Claude) que sustentam o raciocínio dos agentes AURA. Repassado a custo.</p>
+      </div>
+      <div class="cv-item">
+        <div class="cvlabel">Componente 02</div>
+        <h4>Utilização da IA · por lead</h4>
+        <p>Custo operacional por lead trabalhado. Recuperação de vendas opera em torno de R$ 3 a R$ 4 por lead — varia com nível de consciência e cadência exigida.</p>
+      </div>
+      <div class="cv-item">
+        <div class="cvlabel">Componente 03</div>
+        <h4>API Meta · WhatsApp Business</h4>
+        <p>Cobrado direto na BM da Marcados pela Meta. Awsales como Meta Tech Provider apenas ativa, aprova templates e otimiza categorias (marketing → utilidade) para reduzir custo.</p>
+      </div>
+    </div>
+
+    <div class="cv-range">
+      <div class="cv-range-text">
+        <strong>Custo variável médio por lead trabalhado · referência</strong>
+        <p>Faixa observada em operações Awsales. Valor final varia por campanha, nível de consciência da base e volume de mensagens trocadas.</p>
+      </div>
+      <div class="cv-range-num">
+        R$ 3,00 — R$ 4,00
+        <small>por lead · recuperação de vendas</small>
+      </div>
+    </div>
+
+    <div class="cv-trava">
+      <strong>Trava orçamentária.</strong> O consumo variável é controlado por orçamento mensal pré-aprovado pela Marcados. A Awsales <strong>alerta ao atingir 80% do saldo</strong> e <strong>pausa execução ao atingir 100%</strong>. Qualquer ampliação é autorizada explicitamente antes da execução. <strong>Conforme a IA aprende, o custo por lead cai e a conversão sobe</strong> — o Optimization Brain comprime margem ao longo do tempo.
+    </div>
   </div>
-  <div class="reminder" contenteditable="true">Lembrete: se em 30 dias não superarmos seus KPIs atuais (baseline 1,3%), <strong>devolvemos 100% do investimento</strong>. O risco é todo nosso.</div>
-</div></section>
-<section class="cta-section"><div class="cta-inner">
-  <div class="cta-pre">Awsales · Service-as-a-Software</div>
-  <h2 contenteditable="true">Transformamos custo em <em>resultado.</em></h2>
-  <p class="cta-desc" contenteditable="true">A Eco Adventure Tour merece um parceiro que jogue no mesmo time: nosso faturamento cresce quando as vendas de vocês crescem — de 1,3% para 2,5%, juntos.</p>
-  <div class="cta-contact"><div class="cta-name" contenteditable="true">Arthur Betônico</div><div class="cta-role" contenteditable="true">Head of Sales · Awsales</div></div>
-  <div class="cta-links"><div class="cta-link"><div class="cta-link-val" contenteditable="true">arthur@awsales.io</div><div class="cta-link-label">E-mail de contato</div></div><div class="cta-link"><div class="cta-link-val" contenteditable="true">+55 31 99627-6090</div><div class="cta-link-label">WhatsApp</div></div></div>
-</div></section>
-<div class="footer">© 2026 Awsales by Aswork. Documento confidencial.</div>
+</section>
+
+<!-- ============ 6. CRONOGRAMA ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">06 · Cronograma</span>
+    <h2 class="section-title">7 dias para o go-live.</h2>
+    <p class="section-lead">A partir da assinatura, 7 dias úteis para colocar todas as 5 campanhas em produção. Nas duas primeiras semanas, ramp-up controlado em piloto antes de 100% do volume.</p>
+
+    <div class="timeline">
+      <div class="tl-step">
+        <div class="tl-dot"></div>
+        <div class="tl-phase">Dia 1</div>
+        <div class="tl-title">Assinatura & Kickoff</div>
+        <div class="tl-desc">Contrato assinado, reunião de onboarding com gestor de projetos AI, coleta dos insumos (Kiwify, RD/CRM, páginas dos 5 produtos, base do Grupo Marcados, TypeForm).</div>
+      </div>
+      <div class="tl-step">
+        <div class="tl-dot"></div>
+        <div class="tl-phase">Dias 2–5</div>
+        <div class="tl-title">Construção & Integrações</div>
+        <div class="tl-desc">Estruturação dos 5 agentes AURA, bases de conhecimento por produto, integração Kiwify, ativação WhatsApp API oficial, aprovação de templates Meta, mapeamento de POPs.</div>
+      </div>
+      <div class="tl-step">
+        <div class="tl-dot"></div>
+        <div class="tl-phase">Dias 6–7</div>
+        <div class="tl-title">Testes & Go-Live</div>
+        <div class="tl-desc">Validação em ambiente controlado, testes A/B iniciais por agente, ativação em piloto e ramp-up para 100% do volume das 5 campanhas.</div>
+      </div>
+      <div class="tl-step">
+        <div class="tl-dot"></div>
+        <div class="tl-phase">Dia 37</div>
+        <div class="tl-title">1ª Revisão de Resultados</div>
+        <div class="tl-desc">Reunião de governança com ROAS consolidado, análise por campanha, decisão sobre ativação da garantia (se aplicável) e roadmap de otimização contínua.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. TRACK RECORD ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">07 · Track Record</span>
+    <h2 class="section-title">Resultados em operações com perfil comparável.</h2>
+    <p class="section-lead">Três operações com match direto ao cenário Marcados — infoproduto, lançamento, recuperação e capacidade enterprise.</p>
+
+    <div class="cases-grid">
+      <div class="case">
+        <div class="case-client">G4 Educação</div>
+        <div class="case-seg">Educação executiva</div>
+        <div class="case-challenge">
+          <strong>Desafio</strong>
+          Recuperação de vendas em funil de high-ticket com lançamentos recorrentes e base ativa.
+        </div>
+        <div class="case-result">R$ 2M</div>
+        <div class="case-result-label">vendidos por um único agente AURA — recuperação que ficaria na mesa.</div>
+        <div class="case-why">Mesmo padrão de funil que Marcados: portfólio multi-produto, lançamentos sucessivos, necessidade de cadência persistente em lista qualificada.</div>
+      </div>
+
+      <div class="case">
+        <div class="case-client">Daxus</div>
+        <div class="case-seg">Curso de programação · perpétuo</div>
+        <div class="case-challenge">
+          <strong>Desafio</strong>
+          Recuperação de vendas em perpétuo de ticket médio com tráfego pago contínuo.
+        </div>
+        <div class="case-result">R$ 65k</div>
+        <div class="case-result-label">recuperados em 1 único dia na abertura de carrinho do lançamento.</div>
+        <div class="case-why">Match direto com os 4 perpétuos da Marcados (Aula 18, Márcia, PENAC, Blocos do Tempo) — mesma mecânica de recuperação por evento Kiwify.</div>
+      </div>
+
+      <div class="case">
+        <div class="case-client">Aliança Divergente</div>
+        <div class="case-seg">Volume enterprise · Welton Euller</div>
+        <div class="case-challenge">
+          <strong>Desafio</strong>
+          Operação de disparos e engajamento em escala massiva mantendo qualidade de conversa e entregabilidade.
+        </div>
+        <div class="case-result">+1M</div>
+        <div class="case-result-label">disparos gerenciados pela AURA com WhatsApp API oficial e qualidade BM preservada.</div>
+        <div class="case-why">Prova de capacidade para suportar o crescimento da Marcados de R$ 2M para R$ 4M sem gargalo operacional.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. RESPONSABILIDADES ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">08 · Responsabilidades</span>
+    <h2 class="section-title">Quem faz o quê — sem zona cinzenta.</h2>
+    <p class="section-lead">Papéis definidos com precisão para você focar em estratégia enquanto a Awsales absorve toda a carga operacional.</p>
+
+    <div class="resp-table">
+      <div class="resp-header">Frente de trabalho</div>
+      <div class="resp-header gold">Awsales</div>
+      <div class="resp-header gold">Marcados</div>
+
+      <div class="resp-cell item">Integração Kiwify + WhatsApp API oficial</div>
+      <div class="resp-cell check">✓ Executa</div>
+      <div class="resp-cell">Fornece acessos e endpoints</div>
+
+      <div class="resp-cell item">Construção dos 5 agentes AURA + bases de conhecimento</div>
+      <div class="resp-cell check">✓ Executa</div>
+      <div class="resp-cell">Fornece páginas, VSLs, scripts existentes, histórico</div>
+
+      <div class="resp-cell item">Aprovação de templates Meta</div>
+      <div class="resp-cell check">✓ Executa (Meta Tech Provider)</div>
+      <div class="resp-cell">Aprova copies antes do disparo</div>
+
+      <div class="resp-cell item">Migração / configuração do CRM (saída do RD)</div>
+      <div class="resp-cell check">✓ Apoia tecnicamente</div>
+      <div class="resp-cell">Define o CRM-destino</div>
+
+      <div class="resp-cell item">Operação contínua, otimização e ajustes</div>
+      <div class="resp-cell check">✓ Executa 24/7</div>
+      <div class="resp-cell">Participa da governança mensal</div>
+
+      <div class="resp-cell item">Gestão da Business Manager (BM) Meta</div>
+      <div class="resp-cell">Dá suporte técnico</div>
+      <div class="resp-cell check">Proprietária da BM</div>
+
+      <div class="resp-cell item">Custo variável Meta (API WhatsApp)</div>
+      <div class="resp-cell">—</div>
+      <div class="resp-cell check">Pago direto na BM</div>
+
+      <div class="resp-cell item">Qualidade da lista (risco de ban por lista fria)</div>
+      <div class="resp-cell">Orienta boas práticas e cadências leves</div>
+      <div class="resp-cell check">Responsável pela qualidade da base</div>
+
+      <div class="resp-cell item">Fechamento humano (quando IA escala)</div>
+      <div class="resp-cell">IA identifica e transfere</div>
+      <div class="resp-cell check">Equipe Marcados executa</div>
+
+      <div class="resp-cell item">Compliance / LGPD</div>
+      <div class="resp-cell">Garante infra compliant</div>
+      <div class="resp-cell check">Titular dos dados</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. PRÓXIMOS PASSOS ============ -->
+<section class="block">
+  <div class="container">
+    <span class="section-label">09 · Próximos Passos</span>
+    <h2 class="section-title">Da proposta ao go-live em 8 dias úteis.</h2>
+    <p class="section-lead">Você confirmou autonomia decisória na call. O fluxo abaixo encurta o ciclo de decisão para 3 dias úteis.</p>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-title">Reunião de validação da proposta com Mateus (e André, se possível)</div>
+        <div class="step-resp"><strong>Responsável</strong>Awsales (Arthur) + Marcados</div>
+        <div class="step-deadline"><strong>Prazo</strong>Segunda, 28/04 — 14h</div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-title">Aprovação da proposta e ajustes finais de escopo (se houver)</div>
+        <div class="step-resp"><strong>Responsável</strong>Mateus · Marcados</div>
+        <div class="step-deadline"><strong>Prazo</strong>Até 29/04</div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-title">Assinatura do contrato e emissão da NF de implantação</div>
+        <div class="step-resp"><strong>Responsável</strong>Ambas as partes</div>
+        <div class="step-deadline"><strong>Prazo</strong>Até 30/04</div>
+      </div>
+      <div class="step">
+        <div class="step-num"></div>
+        <div class="step-title">Reunião de onboarding e coleta de insumos das 5 campanhas</div>
+        <div class="step-resp"><strong>Responsável</strong>Gestor AI (Awsales) + Mateus</div>
+        <div class="step-deadline"><strong>Prazo</strong>02/05</div>
+      </div>
+    </div>
+
+    <div class="kickoff-highlight">
+      <strong>Kick-off da operação</strong>
+      Go-live programado para a primeira semana de maio. A partir desse marco, Mateus deixa de operar lista quente manualmente e passa a operar estratégia em cima dos dashboards Awsales.
+    </div>
+  </div>
+</section>
+
+<!-- ============ 10. FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-col">
+        <div class="foot-brand">Aw<em>sales</em></div>
+        <p style="margin-top: 16px;">Service-as-a-Software de operação comercial autônoma para infoprodutores e enterprise. Liga 3 de automação — agentes que vendem, recuperam e operam funil.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Account Executive</h4>
+        <p><strong>Arthur Betonico</strong></p>
+        <p>Head Comercial · Awsales</p>
+        <p style="margin-top: 10px;" contenteditable="true">arthur@awsales.io</p>
+        <p contenteditable="true">WhatsApp: (xx) xxxxx-xxxx</p>
+      </div>
+      <div class="foot-col">
+        <h4>Validade & Confidencialidade</h4>
+        <p>Esta proposta é válida por <strong>15 dias corridos</strong> a partir da data de emissão.</p>
+        <p style="margin-top: 10px;">Documento confidencial. Reprodução total ou parcial proibida sem autorização expressa da Awsales.</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>AWSALES · CNPJ XX.XXX.XXX/0001-XX</div>
+      <div>Emitida em 25 de abril de 2026</div>
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
